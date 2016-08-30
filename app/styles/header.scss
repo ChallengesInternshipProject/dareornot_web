@@ -1,0 +1,166 @@
+
+.Header{
+	position: relative;
+	height: 73px;
+	width: 100%;	
+	background-color: #056686;
+	margin: 0 auto;
+
+
+.wrapper header>img{
+	width: 95px;
+	height: 65px;
+	padding-top: 5px;
+	padding-left: 25px;
+}
+ input{
+    background-image: url(../img/DareLogo.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 2% 30%;
+    background-color: #17293a;
+    border-color:#17293a; 
+    color: #fff;
+	font-size: 23px;
+	letter-spacing: 1px;
+	width: 430px;
+  	height: 48px;
+  	padding-left: 60px;
+  	box-sizing: border-box;
+  	margin-top: 13px;
+	border:none;
+}
+
+ form span img{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+ form{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 70px;
+}
+
+.check{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 30px;
+}
+
+ .search{
+	padding-right: 30px;
+	padding-top: 15px;
+}
+
+ nav{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 25px;
+	width: 550px;
+	height: 100%;
+	padding-left: 27px;
+	font-family:"Open Sans";
+}
+ nav li{
+    width: auto;
+    height: 20px;
+    margin: 0;
+    list-style-type: none;
+}
+ nav div>ul>li>a:hover {
+    color: orange;
+}
+ ul li{
+	float: left;
+	position: relative;
+	padding-right: 24px;
+}
+
+nav>ul>li{
+    display: inline-block;
+    vertical-align: top;
+}
+
+ nav div>ul>li>a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 20.5px;
+}
+
+.img_user{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	background-color: #fff;
+	margin-top: 6px;
+}
+
+.useruser{
+	display: inline-block;
+	padding-left: 5px;
+}
+
+.person {
+	display: inline-block;
+	vertical-align: top;
+	background-image: url(../img/user1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30px;
+	height: 80px;
+	padding-top: 15px;
+	padding-left: 35px;
+}
+
+ #menu-items{
+ 	display: none;
+ }
+
+.comment{
+	display: inline-block;
+	vertical-align: top;
+	background-image: url(../img/speech1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30px;
+	height: 80px;
+	padding-top: 15px;
+	padding-left: 35px;
+}
+
+.heart{
+	display: inline-block;
+	vertical-align: top;
+	background-image: url(../images/Header/love1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30px;
+	padding-top: 15px;
+	height: 80px;
+	padding-left: 35px;
+}
+.like{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 30px;
+}
+
+.like p{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 21px;
+	font-size: 20px;
+}
+
+.search{
+	display: inline-block;
+	vertical-align: top;
+}
+button{
+	display: none;
+}
+}

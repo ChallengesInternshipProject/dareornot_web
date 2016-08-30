@@ -1,0 +1,95 @@
+
+.Footer{
+		display: block;
+		width: 100%;
+		padding:25px 40px 10px 110px;
+		color: #fff;
+		font-size:14px;
+		text-align: center;
+		background-color:#18293a;
+	
+	 .social-footer{
+		display: inline-block;
+		vertical-align:middle;
+		width: 100%;
+		height: 55px;
+	}
+
+	 .social-footer>ul>li>a{
+		color: #ffb400;
+		text-decoration: none;
+		padding-right: 5px;
+	}
+
+	.social-footer>ul>li {
+    	display: inline;
+    	margin-right: 16px;
+	}
+
+ .social-footer>ul>li img{
+		position: relative;
+		display: inline-block;
+		height: 50px;
+		line-height: 60px;
+		vertical-align: middle;
+		padding:0px 5px 10px 0px;
+	}
+
+	.social-footer>ul>li i{
+		color: #fff;
+}
+
+	 .social-footer>ul>li>i>span{
+	color: #03b2d1;
+}
+
+
+
+	.fa-fb { 
+		background: url("../img/facebook.png") ;
+		background-repeat: no-repeat;
+		background-size: 60%;
+	} 
+	
+	.fa-tw { 
+		background: url("../images/Footer/twitter.png") ;
+		background-repeat: no-repeat;
+		background-size:60%;
+	
+	} 
+	
+	.fa-g { 
+		background: url("../images/Footer/g+.png") ;
+		background-repeat: no-repeat;
+		background-size: 60%;
+	} 
+	
+	.fa-wi { 
+		background: url("../images/Footer/wi-fi.png") ;
+		background-repeat: no-repeat;
+		background-size: 60%;
+	} 
+
+	.social-buttons{
+		display: inline-block;
+		vertical-align: top;
+		width: 40px;
+		height: 40px;
+	}
+
+	.social-buttons a{
+		height: 40px;
+		width: 40px;
+
+	}
+
+	.social-buttons li{
+		height: 70px;
+	}
+
+	.socialtwo{
+		display: none;
+	}
+
+
+}
