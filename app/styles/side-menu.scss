@@ -1,128 +1,121 @@
 
-.Side-menu{
+.side-menu{
 
-	 	display: inline-block;
+		display: inline-block;
+		width: 126px;
+		background-color: #012438;
+		height: 1779px;
+		margin: auto;
+
+		
+	.size{
+		display: inline-block;
 	    font: normal normal normal 14px/1 FontAwesome;
 	    font-size: inherit;
 	    text-rendering: auto;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
-	    width:122px;
-		height:122px;
-		background-color: #012438;
+		width: 122px;
+		height: 122px;
+		list-style-type: none;
+	}
 	
  	.fa-user { 
-	  	background: url("../img/user.png") ;
+	  	background: url("../images/Side-menu/user.png") ;
 	  	background-repeat: no-repeat;
-	  	background-position: center; 
+	  	background-position: left; 
 	 } 
  	.fa-fav { 
-	  	background: url("../img/fav.png") ;
+	  	background: url("../images/Side-menu/fav.png") ;
 	  	background-repeat: no-repeat;
-	  	background-position: center; 
+	  	background-position: left; 
 	 } 
  	.fa-friends { 
-	  	background: url("../img/friends.png") ;
+	  	background: url("../images/Side-menu/friends.png") ;
 	  	background-repeat: no-repeat;
-	  	background-position: center; 
+	  	background-position: left; 
 	} 
  	.fa-event { 
-	  	background: url("../img/event.png") ;
+	  	background: url("../images/Side-menu/event.png") ;
 	  	background-repeat: no-repeat;
-	  	background-position: center; 
+	  	background-position: left; 
 	} 
  	.fa-chat { 
-	  	background: url("../img/chat.png") ;
+	  	background: url("../images/Side-menu/chat.png") ;
 	  	background-repeat: no-repeat;
-	  	background-position: center; 
+	  	background-position: left; 
 	} 
  	.fa-stat { 
-	  	background: url("../img/stat.png") ;
+	  	background: url("../images/Side-menu/stat.png") ;
 	  	background-repeat: no-repeat;
-	 	background-position: center; 
+	 	background-position: left; 
 	} 
  	.fa-speech { 
-	 	background: url("../img/speech.png") ;
+	 	background: url("../images/Side-menu/speech.png") ;
 	  	background-repeat: no-repeat;
-	  	background-position: center; 
+	  	background-position: left; 
 	} 
  	.fa-out { 
-	  	background: url("../img/out.png") ;
+	  	background: url("../images/Side-menu/out.png") ;
 	  	background-repeat: no-repeat;
-	 	 background-position: center; 
+	 	 background-position: left; 
 	} 
  	.fa-settings { 
-	  	background: url("../img/settings.png") ;
+	  	background: url("../images/Side-menu/settings.png") ;
 	  	background-repeat: no-repeat;
-	  	background-position: center; 
+	  	background-position: left; 
 	} 
  	.fa-history { 
-	  	background: url("../img/history.png") ;
+	  	background: url("../images/Side-menu/history.png") ;
 	 	background-repeat: no-repeat;
-	  	background-position: center; 
-	  	width:122px;
-	  	height:122px;
+	  	background-position: left; 
+	  
+	  
  	} 
  	.fa-love { 
-	 	background: url("../img/love.png") ;
+	 	background: url("../images/Side-menu/love.png") ;
 	 	background-repeat: no-repeat;
-	  	background-position: center; 
+	  	background-position: left; 
 	} 
  	.fa-notification { 
-	 	background: url("../img/notification.png") ;
+	 	background: url("../images/Side-menu/notification.png") ;
 	 	background-repeat: no-repeat;
-	  	background-position: center; 
+	  	background-position: left; 
 	} 
  	.fa-activities { 
-	  	background: url("../img/activities.png") ;
+	  	background: url("../images/Side-menu/activities.png") ;
 	 	background-repeat: no-repeat;
-	 	background-position: center; 
+	 	background-position: left; 
 	} 
  	.fa-categories{ 
-	  	background: url("../img/categories1.png") ;
+	  	background: url("../images/Side-menu/categories1.png") ;
 	  	background-repeat: no-repeat;
-	  	background-position: center; 
+	  	background-position: left; 
 	}
 
 	.fa-left { 
-		background: url("../img/left.png") ;
+		background: url("../images/Side-menu/left.png") ;
 		background-repeat: no-repeat;
-		background-position: center; 
+		background-position: left; 
 	
 	} 
 	.fa-left{ 
-		background: url("../img/left1.png") ;
+		background: url("../images/Side-menu/left1.png") ;
 		background-repeat: no-repeat;
-		background-position: center; 
+		background-position: left; 
 	
 	} 
 	.fa-right { 
-		background: url("../img/right.png") ;
+		background: url("../images/Side-menu/right.png") ;
 		background-repeat: no-repeat;
-		background-position: center; 
+		background-position: left; 
 	
 	} 
 	.fa-right{ 
-		background: url("../img/right1.png") ;
+		background: url("../images/Side-menu/right1.png") ;
 		background-repeat: no-repeat;
-		background-position: center; 
+		background-position: left; 
 	
 	} 
-
-	.category nav{
-		display: inline-block;
-		width: 6%;
-		background-color: #012438;
-		height: 1779px;
-	}
-	
-	 .category aside{
-		display: inline-block;
-		vertical-align: top;
-		width: 367px;
-		height: 1779px;
-		background-color: #002945;
-		margin-left: -5px;
-	}
 
 }

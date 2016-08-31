@@ -1,20 +1,22 @@
 
-.Header{
+.header{
 	position: relative;
 	height: 73px;
 	width: 100%;	
 	background-color: #056686;
-	margin: 0 auto;
+	font-family:"Open Sans";
 
 
-.wrapper header>img{
+
+
+ header>img{
 	width: 95px;
 	height: 65px;
 	padding-top: 5px;
 	padding-left: 25px;
 }
  input{
-    background-image: url(../img/DareLogo.png);
+    background-image: url(../images/Header/DareLogo.png);
     background-repeat: no-repeat;
     background-size: 40px;
     background-position: 2% 30%;
@@ -45,21 +47,30 @@
 .check{
 	display: inline-block;
 	vertical-align: top;
-	padding-left: 30px;
+	padding-left: 70px;
 }
 
  .search{
 	padding-right: 30px;
 	padding-top: 15px;
 }
+.navbar-header{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+.navbar-brand{
+	display: inline-block;
+	margin: 5px 0px 5px 20px;
+}
 
  nav{
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 25px;
+	margin-top: 5px;
 	width: 550px;
 	height: 100%;
-	padding-left: 27px;
 	font-family:"Open Sans";
 }
  nav li{
@@ -68,7 +79,7 @@
     margin: 0;
     list-style-type: none;
 }
- nav div>ul>li>a:hover {
+ nav ul>li>a:hover {
     color: orange;
 }
  ul li{
@@ -82,7 +93,7 @@ nav>ul>li{
     vertical-align: top;
 }
 
- nav div>ul>li>a{
+ nav ul>li>a{
     position: relative;
     text-decoration: none;
     color: white;
@@ -97,6 +108,12 @@ nav>ul>li{
 	border-radius: 30px;
 	background-color: #fff;
 	margin-top: 6px;
+		img{
+			border-radius: 50%;
+			border: solid 1px #fff;
+			width: 50px;
+			padding-top: 4px;
+		}
 }
 
 .useruser{
@@ -107,12 +124,11 @@ nav>ul>li{
 .person {
 	display: inline-block;
 	vertical-align: top;
-	background-image: url(../img/user1.png);
+	background-image: url(../images/Header/user1.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 30px;
 	height: 80px;
-	padding-top: 15px;
 	padding-left: 35px;
 }
 
@@ -123,12 +139,11 @@ nav>ul>li{
 .comment{
 	display: inline-block;
 	vertical-align: top;
-	background-image: url(../img/speech1.png);
+	background-image: url(../images/Header/speech1.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 30px;
 	height: 80px;
-	padding-top: 15px;
 	padding-left: 35px;
 }
 
@@ -139,7 +154,6 @@ nav>ul>li{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 30px;
-	padding-top: 15px;
 	height: 80px;
 	padding-left: 35px;
 }
@@ -152,7 +166,6 @@ nav>ul>li{
 .like p{
 	display: inline-block;
 	vertical-align: top;
-	padding-top: 21px;
 	font-size: 20px;
 }
 
