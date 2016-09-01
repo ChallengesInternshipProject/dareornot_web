@@ -48,48 +48,23 @@
 	font-style: normal;
 }
 
-
-
-	.fa-fb { 
-		background: url("../images/Footer/facebook.png") ;
-		background-repeat: no-repeat;
-		background-size: 60%;
-	} 
-	
-	.fa-tw { 
-		background: url("../images/Footer/twitter.png") ;
-		background-repeat: no-repeat;
-		background-size:60%;
-	
-	} 
-	
-	.fa-g { 
-		background: url("../images/Footer/g+.png") ;
-		background-repeat: no-repeat;
-		background-size: 60%;
-	} 
-	
-	.fa-wi { 
-		background: url("../images/Footer/wi-fi.png") ;
-		background-repeat: no-repeat;
-		background-size: 60%;
-	} 
-
 	.social-buttons{
 		display: inline-block;
 		vertical-align: top;
-		width: 40px;
-		height: 40px;
+		width: 50px;
+		height: 20px;
+		padding-right: 5px;
 	}
 
 	.social-buttons a{
-		height: 40px;
-		width: 40px;
+		height: 20px;
+		width: 20px;
+
 
 	}
 
 	.social-buttons li{
-		height: 70px;
+		height: 30px;
 	}
 
 	.socialtwo{
