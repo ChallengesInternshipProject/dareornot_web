@@ -1,4 +1,5 @@
 
+
 .header{
 	position: relative;
 	height: 73px;
@@ -6,16 +7,24 @@
 	background-color: #056686;
 	font-family:"Open Sans";
 
-
-
-
- header>img{
-	width: 95px;
-	height: 65px;
-	padding-top: 5px;
-	padding-left: 25px;
+body{
+	font-size: 14px;
+    line-height: 3;
+    color: #fff;
 }
- input{
+p{
+	margin-top: 19px;
+	color: #000;
+}
+
+
+ .navbar-inverse .navbar-brand{
+	width: 100px;
+    height: 65px;
+    padding-top: 2px;
+    padding-left: 2px;;
+}
+ .chellenger{
     background-image: url(../images/Header/DareLogo.png);
     background-repeat: no-repeat;
     background-size: 40px;
@@ -29,7 +38,7 @@
   	height: 48px;
   	padding-left: 60px;
   	box-sizing: border-box;
-  	margin-top: 13px;
+  	margin-top: 11px;
 	border:none;
 }
 
@@ -44,61 +53,57 @@
 	padding-left: 70px;
 }
 
-.check{
-	display: inline-block;
-	vertical-align: top;
-	padding-left: 70px;
-}
 
- .search{
-	padding-right: 30px;
-	padding-top: 15px;
-}
+
 .navbar-header{
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
 }
 
+.navbar-right {
+	margin-right: 90px;
+}
 .navbar-brand{
 	display: inline-block;
 	margin: 5px 0px 5px 20px;
 }
+.navbar-inverse .navbar-collapse{
+	background-color: #056686;
+}
 
- nav{
+.navbar-inverse{
+	background-color: #056686;
+	border: none;
+}
+.navbar-inverse .navbar-toggle{
+	border: none;
+}
+
+
+
+.navbar-nav {
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 5px;
-	width: 550px;
-	height: 100%;
+	height: 74px;
 	font-family:"Open Sans";
+	margin-top: 2px;
 }
- nav li{
-    width: auto;
-    height: 20px;
-    margin: 0;
-    list-style-type: none;
-}
- nav ul>li>a:hover {
+ 
+ 
+.navbar-inverse .navbar-nav>li>a:hover {
     color: orange;
 }
- ul li{
-	float: left;
-	position: relative;
-	padding-right: 24px;
-}
 
-nav>ul>li{
-    display: inline-block;
-    vertical-align: top;
-}
 
- nav ul>li>a{
+ 
+.navbar-inverse .navbar-nav>li>a{
     position: relative;
     text-decoration: none;
     color: white;
     display: block;
     font-size: 20.5px;
+    padding-top: 25px;
 }
 
 .img_user{
@@ -112,7 +117,7 @@ nav>ul>li{
 			border-radius: 50%;
 			border: solid 1px #fff;
 			width: 50px;
-			padding-top: 4px;
+			padding-top: px;
 		}
 }
 
@@ -157,23 +162,35 @@ nav>ul>li{
 	height: 80px;
 	padding-left: 35px;
 }
-.like{
-	display: inline-block;
-	vertical-align: top;
-	padding-left: 30px;
-}
 
-.like p{
+
+ .person p{
 	display: inline-block;
 	vertical-align: top;
 	font-size: 20px;
+	padding-left: 30px;
+}
+
+.heart p{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 20px;
+	padding-left: 30px;
+}
+
+.comment p{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 20px;
+	padding-left: 30px;
 }
 
 .search{
 	display: inline-block;
 	vertical-align: top;
+	padding-right: 30px;
+	padding-left: 20px;
+	padding-top: 15px;
 }
-button{
-	display: none;
-}
+
 }
