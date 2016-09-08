@@ -1,4 +1,5 @@
 
+
 .side-menu{
 
 		display: inline-block;
@@ -27,29 +28,13 @@
 	
  	
  	
-	// .fa-left { 
-	// 	background: url("../images/Side-menu/left.png") ;
-	// 	background-repeat: no-repeat;
-	// 	background-position: left; 
 	
-	// } 
-	// .fa-left{ 
-	// 	background: url("../images/Side-menu/left1.png") ;
-	// 	background-repeat: no-repeat;
-	// 	background-position: left; 
-	
-	// } 
-	// .fa-right { 
-	// 	background: url("../images/Side-menu/right.png") ;
-	// 	background-repeat: no-repeat;
-	// 	background-position: left; 
-	
-	// } 
-	// .fa-right{ 
-	// 	background: url("../images/Side-menu/right1.png") ;
-	// 	background-repeat: no-repeat;
-	// 	background-position: left; 
-	
-	// } 
 
 }
+
+@media screen and (max-width: 800px){
+		.side-menu{
+			display: none;
+			
+		}
+	}
