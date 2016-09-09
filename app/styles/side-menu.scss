@@ -1,10 +1,11 @@
 
+
 .side-menu{
 
 		display: inline-block;
 		width: 126px;
 		background-color: #012438;
-		height: 1779px;
+		height: 200vh;
 		margin: auto;
 
 		
@@ -20,32 +21,20 @@
 		list-style-type: none;
 		margin-top:50px;
 	}
+	ul{
+		width: 122px;
+    	padding-left: 29px;
+	}
 	
  	
  	
-	// .fa-left { 
-	// 	background: url("../images/Side-menu/left.png") ;
-	// 	background-repeat: no-repeat;
-	// 	background-position: left; 
 	
-	// } 
-	// .fa-left{ 
-	// 	background: url("../images/Side-menu/left1.png") ;
-	// 	background-repeat: no-repeat;
-	// 	background-position: left; 
-	
-	// } 
-	// .fa-right { 
-	// 	background: url("../images/Side-menu/right.png") ;
-	// 	background-repeat: no-repeat;
-	// 	background-position: left; 
-	
-	// } 
-	// .fa-right{ 
-	// 	background: url("../images/Side-menu/right1.png") ;
-	// 	background-repeat: no-repeat;
-	// 	background-position: left; 
-	
-	// } 
 
 }
+
+@media screen and (max-width: 800px){
+		.side-menu{
+			display: none;
+			
+		}
+	}

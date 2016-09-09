@@ -15,3 +15,8 @@ angular.module('dareornotApp')
       'Karma'
     ];
   });
+
+  $('.carousel').carousel({
+  interval: 4000,
+  pause: "false"
+});
