@@ -2,7 +2,7 @@
 
 
 .header{
-	position: relative;
+	
 	height: 73px;
 	width: 100%;	
 	background-color: #056686;
@@ -16,6 +16,7 @@ body{
 p{
 	margin-top: 19px;
 	color: #000;
+	line-height: 3vh;
 }
 
 
@@ -82,29 +83,67 @@ p{
 }
 
 .navbar-nav {
+	position: relative;
 	display: inline-block;
 	vertical-align: top;
 	height: 6.9vh;
 	font-family:"Open Sans";
 	margin-top: 0.3vh;
+
 }
 
+ul{
+	list-style: none;
+	position: relative;
+	display: inline-table;
+ }
 
- 
- 
-.navbar-inverse .navbar-nav>li>a:hover {
+ ul li{
+	float: left;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+ }
+ul li:hover{background: rgba(0,0,0,.15);}
+ul li:hover > ul{display: block;}
+ul li{
+	float: left;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+ul ul{
+	display: none;
+	background: #032f48;
+	position: absolute; 
+	top: 100%;
+	box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
+	width: 8vw;
+	padding: 0;
+}
+     		
+ul ul li{
+		float: none;
+		 position: relative;
+		 width: 8vw;
+		}
+ ul ul li a { 
+		 border-bottom: 1px solid #fff;
+}
+
+.navbar-inverse li a:hover {
     color: orange;
 }
 
-
- 
-.navbar-inverse .navbar-nav>li>a{
+.navbar-inverse ul li a{
     position: relative;
     text-decoration: none;
     color: white;
     display: block;
     font-size: 20.5px;
-    padding-top: 25px;
+    padding: 17px;
+    line-height: 3.9vh;
+
 }
 
 .img_user{
@@ -197,6 +236,10 @@ p{
 @media screen and (max-width: 800px){
 	.navbar-right{
 		display: none;
+	}
+
+ 	.navbar-nav{
+		height: auto;
 	}
 
 		}
