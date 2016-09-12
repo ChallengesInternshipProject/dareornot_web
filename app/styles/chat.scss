@@ -1,22 +1,22 @@
 .chat-container{
-	width: 21%;
+	width: 20%;
 	height: 200vh;
-	background-color: #e8edf1;
+	background-color:#fff ;
 	display: inline-block;
-	margin-left: 5vw;
-	margin-top: 3.7em;
-
+	padding-left: 0px;
+    padding-right: 0px;
+	float: right;
 	.blue{
 		height: 46.7em;
 		background-color: #002c47;
 		margin-top: 14.5vh;
 	}
 
-	.grey{
-		height: 200vh;
-		background-color:#fff;
-		margin-top: -1.3em;
-	}
+	// .grey{
+	// 	height: 200vh;
+	// 	background-color:#e8edf1;
+	// 	margin-top: -1.3em;
+	// }
 
 	.active-users{
 		height: 40em;
