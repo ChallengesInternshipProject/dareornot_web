@@ -2,6 +2,7 @@
 
 	.Categories{
 		width: 113%;
+		font-family:"Open Sans";
 
 
 	nav{
@@ -64,7 +65,7 @@
     }
 
 	section{
-		width: 78%;
+		width: 77%;
 		display: inline-block;
 		vertical-align: top;
 		height: 100%;
@@ -82,62 +83,62 @@
  	aside .block .person{
 		display: inline-block;
 		vertical-align: top;
-		background-image: url(../img/user.png);
+		background-image: url(../images/Categories/user.png);
 		background-repeat: no-repeat;
 		background-position: left;
-		background-size: 65px;
-		height: 80px;
-		padding-top: 15px;
-		padding-left: 75px;
+		background-size: 2.9vw;
+    	height: 9vh;
+    	width: 3vw;
+		
 	}
 
 	aside .block .comment{
 		display: inline-block;
 		vertical-align: top;
-		background-image: url(../img/speech.png);
+		background-image: url(../images/Categories/speech.png);
 		background-repeat: no-repeat;
 		background-position: left;
-		background-size: 65px;
-		height: 80px;
-		width: 75px;
-		padding-top: 15px;
-		padding-left: 35px;
+		background-size: 2.9vw;
+    	height: 9vh;
+    	width: 3vw;
+		
 
 	}
 
 	aside .block .heart{
 		display: inline-block;
 		vertical-align: top;
-		background-image: url(../img/love.png);
+		background-image: url(../images/Categories/love.png);
 		background-repeat: no-repeat;
 		background-position: left;
-		background-size: 65px;
-		height: 80px;
-		width: 75px;
-		padding-top: 15px;
-		padding-left: 35px;
+		background-size: 2.9vw;
+    	height: 9vh;
+    	width: 3vw;
+		
 
 	}
 
 	.likeBlock{
 		position: relative;
 		left: 30%;
-		width: 160px;
+		bottom: 10%;
+		width: 17vw;
 	}
 
 	.likeBlock p{
 		display:inline-block;
 		vertical-align: top;
-		font-size: 45px;
+		font-size: 2vw;
 		text-align: center top;
 		color: #03b2d1;
+		margin-left: 0.5vw;
 
 	}
 
 	.likeBlock div{
-		display: block;
-		text-align: left;
-		padding-top: 35px;
+		display: inline-block;
+		width: 9vw;
+		padding-top: 2.9vh;
 	}
 
 	.provocation p>span{
@@ -146,24 +147,32 @@
 	}
 
 	.provocation div:nth-child(1){
-		background-image: url(../img/BusinessSmall.png);
+		background-image: url(../images/Categories/BusinessSmall.png);
 		background-position: right;
 		background-repeat: no-repeat;
 		width: 358px;
 	}
 
 	.provocation div:nth-child(3){
-		background-image: url(../img/prizeSmall.png);
+		background-image: url(../images/Categories/prizeSmall.png);
 		background-position: right;
 		background-repeat: no-repeat;
 		width: 358px;
 	}
 
 	.provocation div:nth-child(5){
-		background-image: url(../img/charitySmall.png);
+		background-image: url(../images/Categories/charitySmall.png);
 		background-position: right;
 		background-repeat: no-repeat;
 		width: 358px;
+	}
+
+	.block{
+		width: 368px;
+		height: 462px;
+		background-color: #012438;
+		border-left: 2px solid #03a2c0;
+		margin: -0.5px;
 	}
 
 	.block .fun p{
@@ -181,7 +190,7 @@
 	}
 
 	.fun{
-		background-image: url(../img/funSmall.png);
+		background-image: url(../images/Categories/funSmall.png);
 		background-position: right;
 		background-repeat: no-repeat;
 		width: 358px;
@@ -195,5 +204,241 @@
 	    border: none;
 	    width:15%;
 	    margin-left: 20px;
+	}
+
+// ============slider carousel=================================
+
+	.demo{ 
+		display: block;
+		// width: 1409px;
+    	height: auto;
+    	width: 53vw;
+    	background-color: #fff;
+    	margin-left: 0.3vw;
+    	margin-top: 1.5vh;
+    	position: relative;
+			.carousel-caption{
+			left: 0;
+			right:auto;
+			top: 0;
+			bottom: auto;
+		}
+	}
+
+
+
+	.demo>img{
+		position: relative;
+	  	width: 1409px;
+    	height: 540px;
+	 }
+
+	.demo h2{
+	 	position: absolute;
+	 	top: 15%;
+	 	color: #fff;
+	 	font-size: 40px;
+	 	padding-left: 30px;
+	 }
+
+	.time{
+		display: inline-block;
+		vertical-align: top;
+		padding-left: 4px;
+			p{
+				font-size: 2vh;
+			}
+	}
+
+	.timetime{
+		display: inline-block;
+		vertical-align: top;
+		/*padding-left: 150px;*/
+		padding-top: 30px;
+		width: 20vw;
+	}
+
+	.likeLike{
+	 	display: inline-block;
+	 }
+
+	.info .person{
+	 	display: inline-block;
+		vertical-align: top;
+		background-image: url(../images/timeline/user1.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 3em;
+		height: 7vh;
+		padding-top: 15px;
+		padding-left: 35px;
+	 }
+
+	.info .comment{
+	 	display: inline-block;
+		vertical-align: top;
+		background-image: url(../images/timeline/speech1.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 3em;
+		height: 7vh;
+		padding-top: 15px;
+		padding-left: 35px;
+	 }
+
+	.info .heart{
+	 	display: inline-block;
+		vertical-align: top;
+		background-image: url(../images/timeline/love1.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 3em;
+		padding-top: 15px;
+		height: 7vh;
+		padding-left: 35px;
+	 }
+
+	.likeLike>p{
+		display: inline-block;
+		vertical-align: top;
+		padding-top: 15px;
+		font-size: 2vh;
+		color: #03b2d1;;
+	}
+
+	.likeLike .person{
+		width: 2.5vw;
+	}
+
+ 	.likeLike .comment{
+		width: 2.5vw;
+	}
+
+	.likeLike .heart{
+		width: 2.5vw;
+	}
+
+
+
+	.clock h6>p{
+		color:#ffcf7d;
+		font-size: 1.5vh;
+    	line-height: 0vh;
+	}
+	.clock{
+		display: inline-block;
+		vertical-align: top;
+		padding-left: 2vw;
+		padding-top: 10px;
+		h6{
+			color:#03b2d1;
+			font-size: 4vh;
+		}
+	}
+
+	.timecheck{
+		display: inline-block;
+		vertical-align: top;
+		padding-left: 4px;
+	}
+
+ 	.timecheck img{
+		width: 16px;
+		height: 20px;
+	}
+
+	.timeclock{
+		display: inline-block;
+		vertical-align: top;
+		padding-left: 1vw;
+    	height: 3vh;
+	}
+
+	.timeclock img{
+		width: 16px;
+		height: 16px;
+	}
+
+	.info{
+		position: relative;
+		bottom: 1vh;
+    	width: 100%;
+    	padding-top: 4vh;
+    	padding-left: 7vw;
+	}
+	.socialtwo{
+		display: none;
+	}
+	.responsive-logo{
+		display: none;
+	}
+	.user{
+		position: absolute;
+		top: 66%;
+		left: 3%;
+		}
+	.user-name{
+		display: inline-block;
+		vertical-align: top;
+		color: #fff;
+		font-size: 2em;
+    	margin-top: -1vh;
+    	margin-left: 2vw;
+		}
+	.user-pic{
+		display:inline-block;	
+		}
+	.user .img-circle {
+		border-radius: 50%;
+		border: 5px solid #fff;
+		width: 6vw;
+	
+	}
+
+	.carousel{
+		width: 100%;
+
+	}	
+	.carousel-inner>.active{
+		max-height: 42vh;
+
+	}
+	
+	.carousel-control{
+		height:70%;
+	}
+
+	.slider-container .container-fluid{
+		padding-left: 0px;
+		width: 100%;
+	}
+
+
+	.carousel-control.left{
+		background-image: none;
+	}
+
+	.carousel-control.right{
+		background-image: none;
+	}
+
+
+
 }
+
+@media screen and (max-width: 800px){
+	.Categories{
+		.CentralNav{
+			display: none;
+		}
+		.demo{
+			width: 100%;
+	
+		}
+
+		.block{
+			display: none;
+		}
+		
+	}
 }
