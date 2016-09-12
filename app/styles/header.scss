@@ -79,7 +79,7 @@ p{
 }
 
 .navbar-right{
-	margin-right: 4vw;
+	margin-right: 7vw;
 }
 
 .navbar-nav {
@@ -140,8 +140,8 @@ ul ul li{
     text-decoration: none;
     color: white;
     display: block;
-    font-size: 20.5px;
-    padding: 17px;
+    font-size: 1vw;
+    padding: 1.6vh;
     line-height: 3.9vh;
 
 }
@@ -171,8 +171,8 @@ ul ul li{
 	background-image: url(../images/Header/user1.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 30px;
-	height: 80px;
+	background-size: 1.5vw;
+	height: 7vh;
 	padding-left: 35px;
 }
 
@@ -186,8 +186,8 @@ ul ul li{
 	background-image: url(../images/Header/speech1.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 30px;
-	height: 80px;
+	background-size: 1.5vw;
+	height: 7vh;
 	padding-left: 35px;
 }
 
@@ -197,8 +197,8 @@ ul ul li{
 	background-image: url(../images/Header/love1.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 30px;
-	height: 80px;
+	background-size: 1.5vw;
+	height: 7vh;
 	padding-left: 35px;
 }
 
@@ -224,23 +224,58 @@ ul ul li{
 	padding-left: 1.5vw;
 }
 
-.search{
+// .search{
+// 	display: inline-block;
+// 	vertical-align: top;
+// 	padding-right: 1.5vw;
+//     padding-left: 2vh;
+//     padding-top: 1.5vh;
+// 	}
+
+.calendar{
 	display: inline-block;
 	vertical-align: top;
-	padding-right: 1.5vw;
-    padding-left: 2vh;
-    padding-top: 1.5vh;
-	}
+	background-image: url(../images/Header/Calendar.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1.5vw;
+	height: 7vh;
+	padding-right:4vw;
 }
 
-@media screen and (max-width: 800px){
+.checkin{
+	display: inline-block;
+	vertical-align: top;
+	background-image: url(../images/Header/CheckIn.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1.2vw;
+	height: 7vh;
+	padding-right:4vw;
+}
+
+.magnifire{
+	display: inline-block;
+	vertical-align: top;
+	background-image: url(../images/Header/MagniFire.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1.5vw;
+	height: 7vh;
+	padding-right: 4vw;
+}
+
+	@media screen and (max-width: 800px){
 	.navbar-right{
 		display: none;
 	}
 
  	.navbar-nav{
 		height: auto;
-	}
-
 		}
+
+	}
+}
+
+
 
