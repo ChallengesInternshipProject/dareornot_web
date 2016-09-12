@@ -13,12 +13,12 @@
   <!-- endbuild -->
   <!-- build:css(.tmp) styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
- <!-- Latest compiled and minified CSS -->
+  <!-- Latest compiled and minified CSS -->
 
-<!-- jQuery library -->
+  <!-- jQuery library -->
 
 
-<!-- Latest compiled JavaScript -->
+  <!-- Latest compiled JavaScript -->
 
   <!-- endbuild -->
 </head>
@@ -33,20 +33,29 @@
   <div class="container-fluid">
     <div class="row content">
 
-      <div class="header col-sm-12" ng-include="'views/header.html'"></div>
-
-
-      <div class="side-menu col-sm-2 col-lg-2 pull-left sidenav" ng-include="'views/side-menu.html'"></div>
-
-      <div class="container col-sm-8 col-lg-8">
-        <div ng-view=""></div>
+      <div class="row">
+        <div class="header col-sm-12" ng-include="'views/header.html'"></div>
       </div>
-      <div class="chat-container container col-sm-2 col-lg-2" ng-include="'views/chat.html'"></div>
 
-      <div class="footer col-sm-12 container-fluid" ng-include="'views/footer.html'"></div>
+
+
+      <div class="row">
+        <div class="side-menu col-md-1" ng-include="'views/side-menu.html'"></div>
+
+        <div class="container col-md-11">
+          <div ng-view=""></div>
+        </div>
+      </div>
+
+      <!-- Why is the chat container in the index page?!?!?!?!? -->
+      <!-- <div class="chat-container container col-sm-2 col-lg-2" ng-include="'views/chat.html'"></div> -->
+
+      <div class="row">
+        <div class="footer col-sm-12 container-fluid" ng-include="'views/footer.html'"></div>
+      </div>
 
     </div>
-</div>
+  </div>
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
   <script>
     ! function(A, n, g, u, l, a, r) {
@@ -71,6 +80,8 @@
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
   <script src="bower_components/angular-touch/angular-touch.js"></script>
+  <script src="http://maps.google.com/maps/api/js"></script>
+  <script src="bower_components/ngmap/build/scripts/ng-map.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
 
