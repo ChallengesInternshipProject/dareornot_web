@@ -1,7 +1,8 @@
 
 
+
 .header{
-	position: relative;
+	
 	height: 73px;
 	width: 100%;	
 	background-color: #056686;
@@ -15,6 +16,7 @@ body{
 p{
 	margin-top: 19px;
 	color: #000;
+	line-height: 3vh;
 }
 
 
@@ -27,18 +29,18 @@ p{
  .chellenger{
     background-image: url(../images/Header/DareLogo.png);
     background-repeat: no-repeat;
-    background-size: 40px;
+    background-size: 2vw;
     background-position: 2% 30%;
     background-color: #17293a;
     border-color:#17293a; 
     color: #fff;
-	font-size: 23px;
-	letter-spacing: 1px;
-	width: 430px;
-  	height: 48px;
-  	padding-left: 60px;
+	font-size: 1vw;
+	width: 20vw;
+  	height: 5vh;
+  	padding-left: 3.5vw;
+  	padding-right: 1vw;
   	box-sizing: border-box;
-  	margin-top: 11px;
+  	margin-top: 0.9vh;
 	border:none;
 }
 
@@ -50,7 +52,7 @@ p{
  form{
 	display: inline-block;
 	vertical-align: top;
-	padding-left: 70px;
+	padding-left: 1.5vw;
 }
 
 .navbar-header{
@@ -77,45 +79,84 @@ p{
 }
 
 .navbar-right{
-	margin-right: 129px;
+	margin-right: 7vw;
 }
 
 .navbar-nav {
+	position: relative;
 	display: inline-block;
 	vertical-align: top;
-	height: 74px;
+	height: 6.9vh;
 	font-family:"Open Sans";
-	margin-top: 2px;
+	margin-top: 0.3vh;
+
 }
- 
- 
-.navbar-inverse .navbar-nav>li>a:hover {
+
+ul{
+	list-style: none;
+	position: relative;
+	display: inline-table;
+ }
+
+ ul li{
+	float: left;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+ }
+ul li:hover{background: rgba(0,0,0,.15);}
+ul li:hover > ul{display: block;}
+ul li{
+	float: left;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+ul ul{
+	display: none;
+	background: #032f48;
+	position: absolute; 
+	top: 100%;
+	box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
+	width: 8vw;
+	padding: 0;
+}
+     		
+ul ul li{
+		float: none;
+		 position: relative;
+		 width: 8vw;
+		}
+ ul ul li a { 
+		 border-bottom: 1px solid #fff;
+}
+
+.navbar-inverse li a:hover {
     color: orange;
 }
 
-
- 
-.navbar-inverse .navbar-nav>li>a{
+.navbar-inverse ul li a{
     position: relative;
     text-decoration: none;
     color: white;
     display: block;
-    font-size: 20.5px;
-    padding-top: 25px;
+    font-size: 1vw;
+    padding: 1.6vh;
+    line-height: 3.9vh;
+
 }
 
 .img_user{
 	display: inline-block;
-	width: 60px;
-	height: 60px;
+	width: 4.5em;
+	height: 4.3em;
 	border-radius: 30px;
 	background-color: #fff;
-	margin-top: 6px;
+	margin-top: 0.4vh;
 		img{
 			border-radius: 50%;
 			border: solid 1px #fff;
-			width: 50px;
-			padding-top: px;
+			width: 3vw;
 		}
 }
 
@@ -130,14 +171,14 @@ p{
 	background-image: url(../images/Header/user1.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 30px;
-	height: 80px;
+	background-size: 1.5vw;
+	height: 7vh;
 	padding-left: 35px;
 }
 
- #menu-items{
- 	display: none;
- }
+ // #menu-items{
+ // 	display: none;
+ // }
 
 .comment{
 	display: inline-block;
@@ -145,8 +186,8 @@ p{
 	background-image: url(../images/Header/speech1.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 30px;
-	height: 80px;
+	background-size: 1.5vw;
+	height: 7vh;
 	padding-left: 35px;
 }
 
@@ -156,8 +197,8 @@ p{
 	background-image: url(../images/Header/love1.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 30px;
-	height: 80px;
+	background-size: 1.5vw;
+	height: 7vh;
 	padding-left: 35px;
 }
 
@@ -165,37 +206,76 @@ p{
  .person p{
 	display: inline-block;
 	vertical-align: top;
-	font-size: 20px;
-	padding-left: 30px;
+	font-size: 1vw;
+	padding-left: 1.5vw;
 }
 
 .heart p{
 	display: inline-block;
 	vertical-align: top;
-	font-size: 20px;
-	padding-left: 30px;
+	font-size: 1vw;
+	padding-left: 1.5vw;
 }
 
 .comment p{
 	display: inline-block;
 	vertical-align: top;
-	font-size: 20px;
-	padding-left: 30px;
+	font-size: 1vw;
+	padding-left: 1.5vw;
 }
 
-.search{
+// .search{
+// 	display: inline-block;
+// 	vertical-align: top;
+// 	padding-right: 1.5vw;
+//     padding-left: 2vh;
+//     padding-top: 1.5vh;
+// 	}
+
+.calendar{
 	display: inline-block;
 	vertical-align: top;
-	padding-right: 30px;
-	padding-left: 20px;
-	padding-top: 15px;
-	}
+	background-image: url(../images/Header/Calendar.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1.5vw;
+	height: 7vh;
+	padding-right:4vw;
 }
 
-@media screen and (max-width: 800px){
+.checkin{
+	display: inline-block;
+	vertical-align: top;
+	background-image: url(../images/Header/CheckIn.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1.2vw;
+	height: 7vh;
+	padding-right:4vw;
+}
+
+.magnifire{
+	display: inline-block;
+	vertical-align: top;
+	background-image: url(../images/Header/MagniFire.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1.5vw;
+	height: 7vh;
+	padding-right: 4vw;
+}
+
+	@media screen and (max-width: 800px){
 	.navbar-right{
 		display: none;
 	}
 
+ 	.navbar-nav{
+		height: auto;
 		}
+
+	}
+}
+
+
 
