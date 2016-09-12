@@ -73,6 +73,7 @@ p{
 .navbar-inverse{
 	background-color: #056686;
 	border: none;
+	position: absolute
 }
 .navbar-inverse .navbar-toggle{
 	border: none;
@@ -146,7 +147,12 @@ ul ul li{
 
 }
 
+.carousel-inner>.item>a>img, .carousel-inner>.item>img{
+	position: relative;
+}
+
 .img_user{
+	
 	display: inline-block;
 	width: 4.5em;
 	height: 4.3em;
@@ -260,7 +266,7 @@ ul ul li{
 	background-image: url(../images/Header/MagniFire.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 1.5vw;
+	background-size: 1.6vw;
 	height: 7vh;
 	padding-right: 4vw;
 }
