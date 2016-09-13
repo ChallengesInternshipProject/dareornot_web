@@ -1,4 +1,199 @@
 
-.Categories{
-	
+
+	.Categories{
+		width: 113%;
+
+
+	nav{
+		display: inline-block;
+		background-color: #012438;
+		margin-top: 1px;
+	}
+	aside{
+		display: inline-block;
+		vertical-align: top;
+		height: 1779px;
+		background-color: #002945;
+		margin-left: -1.4vw;
+	}
+
+	/*------central section-----*/
+	 .CentralNav{
+		width: 100%;
+		height: 5vh;
+		background-color: #002c47;
+		box-shadow: 0px 3px 0px #fff inset;
+	}
+
+	.CentralNav  li{
+		width: auto;
+    	height: 10px;
+    	margin: 0;
+    	list-style-type: none;
+	}
+
+	.CentralNav>ul>li>a:hover{
+		border-bottom-color: #00b8d4;
+		color: #dda20a;
+	}
+
+
+	.CentralNav>ul>li{
+		float: left;
+		position: relative;
+		padding-right: 2.5vw;
+	}
+
+	.CentralNav>ul>li{
+		display: inline-block;
+		vertical-align: top;
+	}
+	.CentralNav>ul>li>a{
+		position: relative;
+		padding-top: 17px;
+		height: 5vh;
+		width: auto;
+	    text-decoration: none;
+	    text-align: center;
+	    background-color: #002c47;
+	    border-bottom:3px solid transparent;
+	    box-shadow: 0px 3px 0px #fff inset;
+		color: white;
+	    display: block;
+	    font-size: 1em;
+    }
+
+	section{
+		width: 78%;
+		display: inline-block;
+		vertical-align: top;
+		height: 100%;
+		min-height: 1779px;
+		background-color: #e8edf1;
+		margin-left: -4px;
+	}
+
+	.block>p{
+		color: #fff;
+		padding: 30px 15px;
+		font:small-caps;
+	}
+
+ 	aside .block .person{
+		display: inline-block;
+		vertical-align: top;
+		background-image: url(../img/user.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 65px;
+		height: 80px;
+		padding-top: 15px;
+		padding-left: 75px;
+	}
+
+	aside .block .comment{
+		display: inline-block;
+		vertical-align: top;
+		background-image: url(../img/speech.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 65px;
+		height: 80px;
+		width: 75px;
+		padding-top: 15px;
+		padding-left: 35px;
+
+	}
+
+	aside .block .heart{
+		display: inline-block;
+		vertical-align: top;
+		background-image: url(../img/love.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 65px;
+		height: 80px;
+		width: 75px;
+		padding-top: 15px;
+		padding-left: 35px;
+
+	}
+
+	.likeBlock{
+		position: relative;
+		left: 30%;
+		width: 160px;
+	}
+
+	.likeBlock p{
+		display:inline-block;
+		vertical-align: top;
+		font-size: 45px;
+		text-align: center top;
+		color: #03b2d1;
+
+	}
+
+	.likeBlock div{
+		display: block;
+		text-align: left;
+		padding-top: 35px;
+	}
+
+	.provocation p>span{
+		color: #03b2d1;
+		float: right; 
+	}
+
+	.provocation div:nth-child(1){
+		background-image: url(../img/BusinessSmall.png);
+		background-position: right;
+		background-repeat: no-repeat;
+		width: 358px;
+	}
+
+	.provocation div:nth-child(3){
+		background-image: url(../img/prizeSmall.png);
+		background-position: right;
+		background-repeat: no-repeat;
+		width: 358px;
+	}
+
+	.provocation div:nth-child(5){
+		background-image: url(../img/charitySmall.png);
+		background-position: right;
+		background-repeat: no-repeat;
+		width: 358px;
+	}
+
+	.block .fun p{
+		font-size: 14px;
+		width: 310px;
+		color: #fff;
+		padding:30px 15px;
+	}
+
+	.provocation p{
+		font-size: 14px;
+		width: 312px;
+		color: #fff;
+		padding:30px 15px;
+	}
+
+	.fun{
+		background-image: url(../img/funSmall.png);
+		background-position: right;
+		background-repeat: no-repeat;
+		width: 358px;
+	}
+
+	hr {
+	    height: 1.5px;
+	    /* Set the hr color */
+	    color:#03b2d1; /* old IE */
+	    background-color: #03b2d1; /* Modern Browsers */
+	    border: none;
+	    width:15%;
+	    margin-left: 20px;
+}
 }

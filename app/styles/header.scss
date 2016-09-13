@@ -1,281 +1,92 @@
+.header {
+	overflow: hidden;
+	background-color: #3C6685;
+	height: 7.5vh;
 
-
-
-.header{
-	
-	height: 73px;
-	width: 100%;	
-	background-color: #056686;
-	font-family:"Open Sans";
-
-body{
-	font-size: 14px;
-    line-height: 3;
-    color: #fff;
-}
-p{
-	margin-top: 19px;
-	color: #000;
-	line-height: 3vh;
-}
-
-
- .navbar-inverse .navbar-brand{
-	width: 100px;
-    height: 65px;
-    padding-top: 2px;
-    padding-left: 2px;;
-}
- .chellenger{
-    background-image: url(../images/Header/DareLogo.png);
-    background-repeat: no-repeat;
-    background-size: 2vw;
-    background-position: 2% 30%;
-    background-color: #17293a;
-    border-color:#17293a; 
-    color: #fff;
-	font-size: 1vw;
-	width: 20vw;
-  	height: 5vh;
-  	padding-left: 3.5vw;
-  	padding-right: 1vw;
-  	box-sizing: border-box;
-  	margin-top: 0.9vh;
-	border:none;
-}
-
- form span img{
-	display: inline-block;
-	width: 25px;
-	height: 25px;
-}
- form{
-	display: inline-block;
-	vertical-align: top;
-	padding-left: 1.5vw;
-}
-
-.navbar-header{
-	display: inline-block;
-	vertical-align: top;
-	text-align: center;
-}
-
-
-.navbar-brand{
-	display: inline-block;
-	margin: 5px 0px 5px 20px;
-}
-.navbar-inverse .navbar-collapse{
-	background-color: #056686;
-}
-
-.navbar-inverse{
-	background-color: #056686;
-	border: none;
-}
-.navbar-inverse .navbar-toggle{
-	border: none;
-}
-
-.navbar-right{
-	margin-right: 7vw;
-}
-
-.navbar-nav {
-	position: relative;
-	display: inline-block;
-	vertical-align: top;
-	height: 6.9vh;
-	font-family:"Open Sans";
-	margin-top: 0.3vh;
-
-}
-
-ul{
-	list-style: none;
-	position: relative;
-	display: inline-table;
- }
-
- ul li{
-	float: left;
-	-webkit-transition: all .2s ease-in-out;
-	-moz-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
- }
-ul li:hover{background: rgba(0,0,0,.15);}
-ul li:hover > ul{display: block;}
-ul li{
-	float: left;
-	-webkit-transition: all .2s ease-in-out;
-	-moz-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
-}
-ul ul{
-	display: none;
-	background: #032f48;
-	position: absolute; 
-	top: 100%;
-	box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
-	width: 8vw;
-	padding: 0;
-}
-     		
-ul ul li{
-		float: none;
-		 position: relative;
-		 width: 8vw;
-		}
- ul ul li a { 
-		 border-bottom: 1px solid #fff;
-}
-
-.navbar-inverse li a:hover {
-    color: orange;
-}
-
-.navbar-inverse ul li a{
-    position: relative;
-    text-decoration: none;
-    color: white;
-    display: block;
-    font-size: 1vw;
-    padding: 1.6vh;
-    line-height: 3.9vh;
-
-}
-
-.img_user{
-	display: inline-block;
-	width: 4.5em;
-	height: 4.3em;
-	border-radius: 30px;
-	background-color: #fff;
-	margin-top: 0.4vh;
-		img{
-			border-radius: 50%;
-			border: solid 1px #fff;
-			width: 3vw;
-		}
-}
-
-.useruser{
-	display: inline-block;
-	padding-left: 5px;
-}
-
-.person {
-	display: inline-block;
-	vertical-align: top;
-	background-image: url(../images/Header/user1.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 1.5vw;
-	height: 7vh;
-	padding-left: 35px;
-}
-
- // #menu-items{
- // 	display: none;
- // }
-
-.comment{
-	display: inline-block;
-	vertical-align: top;
-	background-image: url(../images/Header/speech1.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 1.5vw;
-	height: 7vh;
-	padding-left: 35px;
-}
-
-.heart{
-	display: inline-block;
-	vertical-align: top;
-	background-image: url(../images/Header/love1.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 1.5vw;
-	height: 7vh;
-	padding-left: 35px;
-}
-
-
- .person p{
-	display: inline-block;
-	vertical-align: top;
-	font-size: 1vw;
-	padding-left: 1.5vw;
-}
-
-.heart p{
-	display: inline-block;
-	vertical-align: top;
-	font-size: 1vw;
-	padding-left: 1.5vw;
-}
-
-.comment p{
-	display: inline-block;
-	vertical-align: top;
-	font-size: 1vw;
-	padding-left: 1.5vw;
-}
-
-// .search{
-// 	display: inline-block;
-// 	vertical-align: top;
-// 	padding-right: 1.5vw;
-//     padding-left: 2vh;
-//     padding-top: 1.5vh;
-// 	}
-
-.calendar{
-	display: inline-block;
-	vertical-align: top;
-	background-image: url(../images/Header/Calendar.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 1.5vw;
-	height: 7vh;
-	padding-right:4vw;
-}
-
-.checkin{
-	display: inline-block;
-	vertical-align: top;
-	background-image: url(../images/Header/CheckIn.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 1.2vw;
-	height: 7vh;
-	padding-right:4vw;
-}
-
-.magnifire{
-	display: inline-block;
-	vertical-align: top;
-	background-image: url(../images/Header/MagniFire.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 1.5vw;
-	height: 7vh;
-	padding-right: 4vw;
-}
-
-	@media screen and (max-width: 800px){
-	.navbar-right{
-		display: none;
+	.dare-logo {
+		// margin-top: 0.2vh;
+		margin-left: 0.8vw;
+		width: 4vw;
+		height: 3vw;
 	}
 
- 	.navbar-nav{
-		height: auto;
-		}
+	.nav-links {
+		margin-left: 1vw;
 
+		.nav-link {
+			// margin-left: 1.5vh;
+			// margin: 3vh;
+			margin-left: 1vw;
+			// margin-top: -20px;
+			font-size: 1vw;
+			color: white;
+			text-decoration: none;
+		}
+	}
+
+	.nav-avatar {
+		margin-top: 0.2vw;
+		margin-left: 3vw;
+		border: 2px solid white;
+		width: 3vw;
+		height: 3vw;
+		border-radius: 50%;
+	}
+
+	.nav-username {
+		font-size: 1vw;
+		margin-left: 0.5vw;
+		color: white;
+	}
+
+	.nav-main-status {
+		margin-left: 2.5vw;
+		margin-right: 1vw;
+
+		.nav-status {
+			padding: 0.3vw;
+			// font-size: 1vw;
+			img {
+				width: 1.2vw;
+				height: 1.2vw;
+			}
+
+			.count {
+				// background-color: red;
+				// margin-bottom: -20px;
+			}
+		}
+	}
+
+	.nav-new-dare {
+		margin-top: 0.5vw;
+		margin-left: 3vw;
+		margin-right: 1vw;
+		border: none;
+		text-decoration: none;
+		padding-left: 2vw;
+		// padding-top: 0.2vw;
+		background-color: #17293a;
+		color: #fff;
+		width: 21.3vw;
+		height: 2.5vw;
+		font-size: 1.2vw;
+
+
+		.nav-submit-logo {
+			margin-left: -1.8vw;
+			float: left;
+			width: 2vw;
+		}
+	}
+
+	.nav-right-icons {
+		margin-right: 2.5vw;
+		// float: right;
+		img {
+			margin-left: 1.5vw;
+			width: 2vw;
+			// height: 2vh;
+		}
 	}
 }
-
-
-
