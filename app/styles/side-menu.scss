@@ -1,40 +1,20 @@
+.side-menu {
+	background-color: #022339;
+	width: 5.7vw;
+	// padding-bottom: 1vh;
+	// background-color: red;
+	// margin-top: -0.6vw;
+	// margin-left: 1.8vw;
+	.icon {
+		img {
+			margin-top: 3vw;
+			margin-left: 1.8vw;
+			width: 1.3vw;
+			// height: 1.3vw;
+		}
 
-
-.side-menu{
-
-		display: inline-block;
-		width: 126px;
-		background-color: #012438;
-		height: 200vh;
-		margin: auto;
-
-		
-	.size{
-		display: inline-block;
-	    font: normal normal normal 14px/1 FontAwesome;
-	    font-size: inherit;
-	    text-rendering: auto;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-		width: 75px;
-		height: 62px;
-		list-style-type: none;
-		margin-top:50px;
-	}
-	ul{
-		width: 122px;
-    	padding-left: 29px;
-	}
-	
- 	
- 	
-	
-
-}
-
-@media screen and (max-width: 800px){
-		.side-menu{
-			display: none;
-			
+		&:last-child {
+			padding-bottom: 4vw;
 		}
 	}
+}
