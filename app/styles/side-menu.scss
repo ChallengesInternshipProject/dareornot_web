@@ -1,6 +1,9 @@
 .side-menu {
+	float: left;
 	background-color: #022339;
 	width: 5.7vw;
+	display: table-cell;
+	// height: 200vh;
 	// padding-bottom: 1vh;
 	// background-color: red;
 	// margin-top: -0.6vw;
