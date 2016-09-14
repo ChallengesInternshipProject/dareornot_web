@@ -1,10 +1,10 @@
 @charset "utf-8";
 @import "some-varibals-mixins";
 .content {
-	.container {width: 96%;
+	.container {width: 94%;
 				display: inline-flex;
 		div .landing{ width: 100%;
-					margin-top:9%;
+					margin-top:6%;
 					margin-left:-1%;
 			h1{@include box-varibal;
 			color: #066886;
@@ -25,14 +25,14 @@
 			.carousel-control.left{background-image: none;}
 			.carousel-control.right{background-image: none;}
 		.user{  position: absolute;
-				top: 9%;
+				top: 5%;
 				left: 0%;
-				.user-name{    
-							font-size: 5em;
-							margin-left: 0.5em;
+				.user-name{ color:#fff;   
+							font-size: 2em;
+							margin-left: 1.5em;
 							}
 			}
-		.info {font-size:2.5em;
+		.info {font-size:1.5em;
 			position: relative;
 			display: flex;
 			bottom: 1vh;
@@ -124,7 +124,8 @@
 				vertical-align: middle;
 			
 			}
-		.row {	@include box-varibal;
+		.row {	padding: 1%;
+				font-size: 1.5em;
 				width: 100%;
 				height: auto;
 				display: inline-block;
@@ -149,7 +150,7 @@
 					}
 				}
 			.coming-1 {
-					width: 32%;
+					width: 31%;
 					height: 20em;
 					padding: 0.5em;
 					margin: 0.5em;
