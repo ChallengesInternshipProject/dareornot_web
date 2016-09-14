@@ -12,8 +12,11 @@
 	
 	.carousel-control{
 		height:70%;
-		
+	}
 
+	.slider-container .container-fluid{
+		padding-left: 0px;
+		width: 100%;
 	}
 
 
@@ -40,13 +43,6 @@
 		margin-top: -11px;
     	margin-bottom: 11px;
 	}
-
-	.slider-container .container-fluid{
-		padding-left: 0px;
-		width: 100%;
-	}
-
-	
 
 	.fa-user { 
 	  	background: url("../images/timeline/user1.png") ;
@@ -293,16 +289,20 @@
 		width: 6vw;
 	
 	}
+	.left-side-container{
+		display: none;
+	}
 }
 
 
 @media screen and (max-width: 800px){
-		.CentralNav{
-			display: none;
-		.demo{
-			width: 90%;
-	
-		}
-		
+		.Timeline{
+			.CentralNav{
+				display: none;
+			}
+				display: none;
+			.demo{
+				width: 100%;
+			}
 		}
 	}
