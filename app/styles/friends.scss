@@ -1,0 +1,147 @@
+.Friends {
+  margin-left: 5.7vw;
+  //TODO FIX THE HEIGHT PROBLEMS
+  // height: 90vh;
+  display: flex;
+
+  .friends-side-menu {
+    background-color: #012D46;
+    width: 18.9vw;
+    display: inline;
+
+    .friends-search-input {
+      border: none;
+      background-color: #012D46;
+      border-bottom: 1px solid #06657E;
+      // border-bottom-
+      padding-left: 3vw;
+      font-size: 1.2vw;
+      height: 7.6vh;
+      color: white;
+      // float:left;
+    }
+
+    .friends-select {
+      // background-color: red;
+      color: white;
+      height: 8.5vh;
+      font-size: 1vw;
+
+      span {
+        // position: inherit;
+        // background-color: red;
+        height: 8.2vh;
+        display: inline-block;
+        padding-top: 3vh;
+        padding-left: 1.5vw;
+      }
+
+      .border-bottom {
+        // position: fixed;
+        // bottom: 0;
+        border-bottom: 1px solid #06657E;
+        width: 2.5vw;
+        margin-left: 1.2vw;
+      }
+
+      .friends-number-stats {
+        margin-top: 3vh;
+        margin-right: 2vw;
+        color: #00CFE2;
+        font-size: 0.8vw;
+        display: inline-block;
+        float: right;
+      }
+      border-left: 3px solid #012D46;
+
+      &:hover {
+        border-left: 3px solid #00CFE2;
+      }
+    }
+  }
+
+  .friends-list {
+    display: block;
+    // float: right;
+    width: 55.6vw;
+    // height: 100vh;
+    background-color: #E8EDF1;
+
+    .friend-info {
+      margin-top: 2.5vh;
+      margin-left: 2.5vw;
+
+      .friend-online {
+        position: absolute;
+        width: 0.8vw;
+        height: 0.8vw;
+        border: 2px solid white;
+        border-radius: 50%;
+        background-color: #04C21A;
+        margin-left: 3.1vw;
+        margin-top: 1vh;
+      }
+
+      .friend-avatar {
+        margin-top: -2.5vh;
+        display: inline-block;
+        width: 4vw;
+        border-radius: 50%;
+      }
+
+      .friend-info-holder {
+        display: inline-block;
+        margin-left: 1vw;
+
+        .friend-name {
+          color: #0E6A8C;
+          display: block;
+          font-size: 1.5vw;
+        }
+
+        .friend-town {
+          color: #28B5D7;
+          display: block;
+
+          img {
+            margin-right: 0.5vw;
+            width: 0.5vw;
+          }
+        }
+      }
+
+      .send-dare {
+        background-color: #056887;
+        color: white;
+        font-size: 1.2vw;
+        display: inline-block;
+        position: absolute;
+        margin-left: 4.1vw;
+        margin-top: 1vh;
+        border: none;
+        height: 6vh;
+        width: 21.5vw;
+      }
+
+      .send-message {
+        position: absolute;
+        margin-left: 28vw;
+        margin-top: 1vh;
+        width: 3vw;
+      }
+    }
+  }
+
+  .friends-alpha-sort {
+    margin-top: 3.5vh;
+    font-size: 1vw;
+    margin-left: -4.3vw;
+    ul {
+      li {
+        margin-bottom: 1.7vh;
+        color: #808487;
+        list-style-type: none;
+      }
+    }
+  }
+}

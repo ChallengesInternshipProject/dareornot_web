@@ -1,10 +1,14 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/"; // bower:scss
+ @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+ // endbower
 //Variables
 //SCSS for pages
 @import 'category';
 @import 'timeline';
-@import'Footer';
-@import'header';
-@import'side-menu';
-//@import'_mixins';
-@import'chat';
+@import 'Footer';
+@import 'header';
+@import 'side-menu';
+@import 'chat';
+@import 'contacts';
+@import 'friends';
 @import'landing';
