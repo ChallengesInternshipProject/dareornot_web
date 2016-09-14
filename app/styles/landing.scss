@@ -1,8 +1,14 @@
 @charset "utf-8";
 @import "some-varibals-mixins";
 .content {
-	.container {
+	.container {width: 96%;
+				display: inline-flex;
 		div .landing{ width: 100%;
+					margin-top:9%;
+					margin-left:-1%;
+			h1{@include box-varibal;
+			color: #066886;
+			}
 			section{
 				display: inline-block;
 				vertical-align: top;
@@ -11,16 +17,22 @@
 		   .carousel{
 				width: 100%;
 				margin-top: -7%;
+			h3{font-size: 5.5em;}
+			img{width: 100%;}
 			}	
 			.carousel-inner>.active{max-height: 42vh;}	
 			.carousel-control{height:70%;}
 			.carousel-control.left{background-image: none;}
 			.carousel-control.right{background-image: none;}
-		.user{position: absolute;
-			 top: 5%;
-			 left:5%;
+		.user{  position: absolute;
+				top: 9%;
+				left: 0%;
+				.user-name{    
+							font-size: 5em;
+							margin-left: 0.5em;
+							}
 			}
-		.info {
+		.info {font-size:2.5em;
 			position: relative;
 			display: flex;
 			bottom: 1vh;
@@ -29,6 +41,7 @@
 			padding-left: 10vw;
 			.timetime{
 				display: inline-flex;
+				width: 30%;
 				div{margin:1%;
 					padding:1%;
 					}
@@ -36,6 +49,7 @@
 		
 			.likeLike {
 				display: inline-block;
+				width: 30%;
 				.person {
 						display: inline-block;
 						vertical-align: top;
@@ -80,7 +94,7 @@
 					width: 4vw;
 				}
 			}
-			.clock {
+			.clock { width: 30%;
 					display: inline-block;
 					vertical-align: top;
 					padding-left: 14vh;
@@ -110,12 +124,11 @@
 				vertical-align: middle;
 			
 			}
-		.row {
+		.row {	@include box-varibal;
 				width: 100%;
 				height: auto;
-				padding: 0px;
 				display: inline-block;
-			
+			h1{@include box-varibal;}
 			.coming {
 				width: 33%;
 				height: auto;
@@ -136,7 +149,7 @@
 					}
 				}
 			.coming-1 {
-					width: 25em;
+					width: 32%;
 					height: 20em;
 					padding: 0.5em;
 					margin: 0.5em;
@@ -150,7 +163,7 @@
 						position: relative;
 						img{
 							display: block;
-							width: 24em;
+							width: 100%;
 							height: 13em;
 							}
 					}	
@@ -159,7 +172,7 @@
 		.img-circle {
 				border-radius: 50%;
 				border: 5px solid;
-				width: 215px;
+				width: 15em;
 				}
 		.consumption {
 			height: 24%;
@@ -169,6 +182,7 @@
 				display: inline-flex;
 				width: 100%;
 				li {
+					width:15%;
 					display: inline;
 					padding: 2.5%;
 					a {
@@ -189,24 +203,29 @@
 			}
 		}
 		.publicity{
+			background: #fff;
+			position: relative;
+			display: inline-block;
+			text-align: center;
 			.call {
-				height: 60%;
+				height: 42em;
 				background: #066886;
 				padding: 3%;
 				.iphone {
 					margin-top: 0px;
 					float: right;
-					width: 20%;
+					width: 25%;
 					height: 123%;
 					right: auto;
+					color: #fff;
 					display: inline;
 				}
 				 h1 {
-					font-size: 77.27px;
+					font-size: 5em;
 					color: #fff;
 				}
-				 p {
-					font-size: 36px;
+				 p {color: #fff;
+					font-size: 2em;
 					text-align: left;
 					padding: 1%;
 				}
