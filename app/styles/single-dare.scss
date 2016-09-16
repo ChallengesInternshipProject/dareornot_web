@@ -1,0 +1,167 @@
+
+
+.single-dare{
+		.dare-pic{
+			display: inline-block;
+			vertical-align: top;
+			width: 100vw;
+			margin-left: -1.2vw;
+		}
+	
+		.dare-pic img{
+			display: inline-block;
+			vertical-align: top;
+			width: 72.5%;
+			height: 430px;
+		}
+		.map-dare{
+			display: inline-block;
+			vertical-align: top;
+			width: 20vw;
+    		height: 39vh;
+		}
+
+		.content-dare{
+			background-color: #e8edf0;
+			width: 80vw;
+			height: 200vh;
+			margin-left: -1.2vw;
+			}
+		.accept{
+			width: 73vw;
+    		height: 18vh;
+		}
+
+		.accept-dare{
+			float: right;
+			display: inline-block;
+			vertical-align: top;
+			width: 16vw;
+			height: 14vh;
+			background-color:#012438;
+			margin-right: 1.5vw;
+    		margin-top: 2.5vh;
+			
+					p{
+						color: #fff;
+						font-size: 1vw;
+						text-align: center;
+						padding-top: 4vh;
+					}
+		}
+		.align{
+			display: inline-block;
+			vertical-align: top;
+			height: 17vh;
+			width: 26vw;
+			padding-left: 3vw;
+		}
+
+		.timeclock{
+			display: inline-block;
+			vertical-align: top;
+			padding-left: 1vw;
+    		height: 3vh;
+			}
+
+		.timeclock img{
+			width: 16px;
+			height: 16px;
+			}
+
+		.time{
+			display: block;
+			vertical-align: top;
+			padding-left: 4px;
+				p{
+				font-size: 2vh;
+				color:#ffcf7d;
+			}
+
+			
+		}
+
+	.likeLike{
+	 	display:inline-block;
+	 }
+
+	.person{
+	 	display: inline-block;
+		vertical-align: top;
+		background-image: url(../images/timeline/user1.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 3em;
+		height: 7vh;
+		padding-top: 15px;
+		padding-left: 35px;
+	 }
+
+	.comment{
+	 	display: inline-block;
+		vertical-align: top;
+		background-image: url(../images/timeline/speech1.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 3em;
+		height: 7vh;
+		padding-top: 15px;
+		padding-left: 35px;
+	 }
+
+	.heart{
+	 	display: inline-block;
+		vertical-align: top;
+		background-image: url(../images/timeline/love1.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 3em;
+		padding-top: 15px;
+		height: 7vh;
+		padding-left: 35px;
+	 }
+
+	.likeLike>p{
+		display: inline-block;
+		vertical-align: top;
+		padding-top: 15px;
+		font-size: 2vh;
+		color: #03b2d1;;
+	}
+
+	.likeLike .person{
+		width: 2.5vw;
+	}
+
+ 	.likeLike .comment{
+		width: 2.5vw;
+	}
+
+	.likeLike .heart{
+		width: 2.5vw;
+	}
+
+
+
+	.clock h6>p{
+		color:#ffcf7d;
+		font-size: 1.5vh;
+    	line-height: 0vh;
+	}
+	.clock{
+		display: inline-block;
+		vertical-align: top;
+		padding-left: 14vh;
+		padding-top: 10px;
+		h6{
+			color:#03b2d1;
+			font-size: 4vh;
+		}
+	}
+
+	.chat-container{
+		margin-top: 39vh;
+	}
+
+}
+
