@@ -10,13 +10,7 @@
 		background-color: #012438;
 		margin-top: 1px;
 	}
-	aside{
-		display: inline-block;
-		vertical-align: top;
-		height: 1779px;
-		background-color: #002945;
-		margin-left: -1.4vw;
-	}
+	
 
 	/*------central section-----*/
 	 .CentralNav{
@@ -28,7 +22,7 @@
 
 	.CentralNav  li{
 		width: auto;
-    	height: 10px;
+    	height: 4vh;
     	margin: 0;
     	list-style-type: none;
 	}
@@ -42,7 +36,7 @@
 	.CentralNav>ul>li{
 		float: left;
 		position: relative;
-		padding-right: 2.5vw;
+		padding-right: 3vw;
 	}
 
 	.CentralNav>ul>li{
@@ -65,7 +59,7 @@
     }
 
 	section{
-		width: 77%;
+		width: 76%;
 		display: inline-block;
 		vertical-align: top;
 		height: 100%;
@@ -74,10 +68,21 @@
 		margin-left: -4px;
 	}
 
+
+// ========== left-side ==================	
+
 	.block>p{
 		color: #fff;
 		padding: 30px 15px;
 		font:small-caps;
+	}
+
+	aside{
+		display: inline-block;
+		vertical-align: top;
+		height: 200vh;
+		background-color: #002945;
+		margin-left: -1.4vw;
 	}
 
  	aside .block .person{
@@ -168,7 +173,7 @@
 	}
 
 	.block{
-		width: 368px;
+		width: 18vw;
 		height: 462px;
 		background-color: #012438;
 		border-left: 2px solid #03a2c0;
@@ -206,13 +211,16 @@
 	    margin-left: 20px;
 	}
 
+
+
+	
 // ============slider carousel=================================
 
 	.demo{ 
 		display: block;
 		// width: 1409px;
     	height: auto;
-    	width: 53vw;
+    	width: 52vw;
     	background-color: #fff;
     	margin-left: 0.3vw;
     	margin-top: 1.5vh;
@@ -435,10 +443,11 @@
 			width: 100%;
 	
 		}
-
-		.block{
-			display: none;
+		aside {
+			display: none !important;
 		}
-		
+
 	}
 }
+
+
