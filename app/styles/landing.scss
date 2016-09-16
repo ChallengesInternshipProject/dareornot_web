@@ -2,12 +2,12 @@
 @import "some-varibals-mixins";
 .landing{@include mine-box;
 		h1{@include box-varibal;
+		color: #066886;
 		.demo{
 		    position: relative;
-			height: 68vh;
+			height: 60vh;
 			width: 93.5vw;
 		}
-			color: #066886;
 			}
 
 		   .carousel{
@@ -15,7 +15,7 @@
 			.carousel-caption{left: -15%;
   				top: 11%;
 				}
-			h3{font-size: 5.5em;
+			h3{font-size: 2.5em;
 				}
 			img{width: 100%;}
 			}	
@@ -42,7 +42,7 @@
     		opacity: 0.9;
 			.timetime{color: #03b2d1;
 				display: inline-flex;
-				width: 30%;
+				width: 40%;
 				div{margin:1%;
 					padding:1%;
 					}
@@ -125,7 +125,7 @@
 				vertical-align: middle;
 			
 			}
-		.row {	padding: 1%;
+		.row {	
 				font-size: 1em;
 				width: 100%;
 				height: auto;
