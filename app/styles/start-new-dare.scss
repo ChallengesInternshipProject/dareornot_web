@@ -14,7 +14,9 @@
 				min-width: 45%;
 				}
 			}
-		.tow{
+		.tow{background-color:#fff;
+			width:20%;
+			 min-height: 100vh;
 		}
 		form{margin-top:3em;
 			label{display: inline-block;
@@ -34,9 +36,9 @@
 						min-height: 2em;
 					}
 				}
-			.col{display: inline-block;
-				.contin{margin-top: 33%;
-						font-size: 12px;
+			.col{display: inline;
+				.contin{
+					font-size: 1em;
 						}
 				}
 			}
