@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 /**
  * @ngdoc overview
@@ -16,7 +16,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'ngMap'
+    'ngMap',
+    'ui.bootstrap'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -105,7 +106,12 @@ angular
         controller: 'TimelineCtrl',
         controllerAs: 'timeline'
       })
+      .when('/administration', {
+        templateUrl: 'views/administration.html',
+        controller: 'AdministrationCtrl',
+        controllerAs: 'administration'
+      })
       .otherwise({
         redirectTo: '/'
-      });
-  });
+      })
+  })
