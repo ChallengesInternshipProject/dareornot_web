@@ -40,14 +40,12 @@
       </div>
 
 
-
-      <div class="row">
-        <div class="container col-md-12">
-          <div ng-include="'views/side-menu.html'"></div>
-
-          <div ng-view=""></div>
-        </div>
+      <div class="side-menu col-sm-2 col-lg-2 pull-left sidenav" ng-include="'views/side-menu.html'"></div>
+	
+      <div class="container col-sm-11 col-lg-11">
+        <div ng-view=""></div>
       </div>
+      <!--<div class="chat-container container col-sm-2 col-lg-2" ng-include="'views/chat.html'"></div>-->
 
     
       <div class="row">
