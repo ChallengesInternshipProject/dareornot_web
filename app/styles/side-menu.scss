@@ -1,7 +1,9 @@
+
 .side-menu {
 	float: left;
 	background-color: #022339;
 	width: 5.7vw;
+	height: 206vh;
 	// display: table-cell;
 	// padding-bottom: 100%;
 	// height: 200vh;
@@ -9,7 +11,8 @@
 	// background-color: red;
 	// margin-top: -0.6vw;
 	// margin-left: 1.8vw;
-	.icon {
+	a{
+		    padding-left: 0.5vw;
 		img {
 			margin-top: 3vw;
 			margin-left: 1.8vw;

@@ -4,7 +4,7 @@
 		.dare-pic{
 			display: inline-block;
 			vertical-align: top;
-			width: 100vw;
+			width: 98.8vw;
 			margin-left: -1.2vw;
 		}
 	
@@ -13,6 +13,8 @@
 			vertical-align: top;
 			width: 72.5%;
 			height: 430px;
+			margin-left: -0.3vw;
+
 		}
 		.map-dare{
 			display: inline-block;
@@ -23,12 +25,12 @@
 
 		.content-dare{
 			background-color: #e8edf0;
-			width: 80vw;
-			height: 200vh;
-			margin-left: -1.2vw;
+			width: 93.8vw;
+			height: 180vh;
+			margin-left: -0.8vw;
 			}
 		.accept{
-			width: 73vw;
+			width: 70vw;
     		height: 18vh;
 		}
 
@@ -158,10 +160,39 @@
 			font-size: 4vh;
 		}
 	}
-
-	.chat-container{
-		margin-top: 39vh;
+	.chat{
+		float: right;
+		width: 24.3%;
+		height: 180vh;
+		background-color: #fff;
+		display: inline-block;
+		vertical-align: top;
+		padding-left: 0px;
+   	 	padding-right: 0px;
+    	margin-left: 2.4vw;
+    	margin-top: -18vh;
+	.blue{
+		height: 46.7em;
+		background-color: #002c47;
+		margin-top: 14.5vh;
 	}
+
+	// .grey{
+	// 	height: 200vh;
+	// 	background-color:#e8edf1;
+	// 	margin-top: -1.3em;
+	// }
+
+	.active-users{
+		height: 40em;
+		h3{
+			padding-top: 1em;
+			padding-left: 3em;
+			color: #00b8d4;
+		}
+	}
+}
+	
 
 }
 

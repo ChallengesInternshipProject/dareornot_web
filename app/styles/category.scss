@@ -9,12 +9,13 @@
 		display: inline-block;
 		background-color: #012438;
 		margin-top: 1px;
+		margin-left: -4px;
 	}
 	
 
 	/*------central section-----*/
 	 .CentralNav{
-		width: 100%;
+		width: 78vw;
 		height: 5vh;
 		background-color: #002c47;
 		box-shadow: 0px 3px 0px #fff inset;
@@ -36,7 +37,7 @@
 	.CentralNav>ul>li{
 		float: left;
 		position: relative;
-		padding-right: 3vw;
+		padding-right: 2.5vw;
 	}
 
 	.CentralNav>ul>li{
@@ -59,13 +60,13 @@
     }
 
 	section{
-		width: 76%;
+		width: 70%;
 		display: inline-block;
 		vertical-align: top;
 		height: 100%;
 		min-height: 1779px;
 		background-color: #e8edf1;
-		margin-left: -4px;
+	
 	}
 
 
@@ -80,9 +81,8 @@
 	aside{
 		display: inline-block;
 		vertical-align: top;
-		height: 200vh;
+		height: 206vh;
 		background-color: #002945;
-		margin-left: -1.4vw;
 	}
 
  	aside .block .person{
@@ -173,7 +173,7 @@
 	}
 
 	.block{
-		width: 18vw;
+		width: 17.6vw;
 		height: 462px;
 		background-color: #012438;
 		border-left: 2px solid #03a2c0;
@@ -230,6 +230,9 @@
 			right:auto;
 			top: 0;
 			bottom: auto;
+				h3{
+					padding-left: 2vw;
+				}
 		}
 	}
 
@@ -430,7 +433,37 @@
 		background-image: none;
 	}
 
+	.chat{
+	width: 27%;
+	height: 200vh;
+	background-color: #fff;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 2.4vw;
+    margin-top: -2.5px;
+	.blue{
+		height: 46.7em;
+		background-color: #002c47;
+		margin-top: 14.5vh;
+	}
 
+	// .grey{
+	// 	height: 200vh;
+	// 	background-color:#e8edf1;
+	// 	margin-top: -1.3em;
+	// }
+
+	.active-users{
+		height: 40em;
+		h3{
+			padding-top: 1em;
+			padding-left: 3em;
+			color: #00b8d4;
+		}
+	}
+}
 
 }
 
