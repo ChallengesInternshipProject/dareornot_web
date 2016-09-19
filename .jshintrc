@@ -1,4 +1,4 @@
-{
+/*{
   "bitwise": true,
   "browser": true,
   "curly": true,
@@ -13,4 +13,4 @@
   "globals": {
     "angular": false
   }
-}
+}*/
