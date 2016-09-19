@@ -14,9 +14,11 @@
 				min-width: 45%;
 				}
 			}
-		.tow{background-color:#fff;
+		.tow{@include Mine_Gray_background;
+		    background-color:#fff;
 			width:20%;
-			 min-height: 100vh;
+			width:80%;
+			min-height: 100vh;
 		}
 		form{margin-top:3em;
 			label{display: inline-block;
@@ -27,7 +29,7 @@
 				font-weight: bold;
 				}
 		}		
-		.row{margin-top:1%;
+		.dare{margin-top:1%;
 			padding: 0%;
 			.cal{width:20%;
 				input {
@@ -37,7 +39,7 @@
 					}
 				}
 			.col{display: inline;
-				.contin{
+				.contin{width:25%;
 					font-size: 1em;
 						}
 				}
@@ -50,7 +52,7 @@
 		.list-inset{ width: 100%; background: transparent;}
 		
 		.vh{margin-top: 1vh;
-			width: 95%;		
+			width: 92%;		
 			min-height: 3em;
 			border-color: #8dc3cd;
 			font-size:1.5em;
