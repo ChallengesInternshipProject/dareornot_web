@@ -3,9 +3,29 @@
 		margin-top:0%;
 		margin-left:0%;
 		box-sizing: border-box;
-	 }   
+	}   
  @mixin box-varibal{
-	margin: 1%;
-    padding: 1%;
-	font-size: 1em;
- }   
+		margin: 1%;
+		padding: 1%;
+		font-size: 1em;
+	}  
+@mixin Mine_Gray_background{
+			margin-top: -20px;
+			@include background-settings;
+			background-image:none;
+   			background:#e8edf0; /*gray*/
+   			color:#03b2d1;
+   			line-height: 1%;
+			}
+@mixin background-settings{
+  			 background-size: 100% 100%;
+  			 text-align: center;
+  			 display: block;
+			 background-repeat: no-repeat;
+			 background-position: center;
+	 }
+@mixin radius-fa{
+		color: #fff;
+		border-radius: 50%;
+		display: inline-block;
+		}
