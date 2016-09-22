@@ -1,10 +1,12 @@
 @charset "utf-8";
 @import "some-varibals-mixins";
 /* CSS Profil new dare */
-	.StartNewDare{min-height: 200vh;
+	.StartNewDare{min-height: 155.5vh;
+				  margin-top: 3%;
 		h1, h3 {color:#16b8d4;}
 		.one{width:80%;
 			 min-height: 100vh;
+			 float:left;
 		@include Mine_Gray_background;
 		.button{font-size: 2em;
 				text-transform: uppercase;
@@ -13,12 +15,19 @@
 				min-height: 3em;
 				min-width: 45%;
 				}
+		.button1{font-size: 2em;
+				text-transform: uppercase;
+				background-color: #012438;
+				color: #fff;
+				min-height: 4em;
+				min-width: 60%;
+				}
 			}
-		.tow{@include Mine_Gray_background;
+		.two{float:left;
+			@include Mine_Gray_background;
 		    background-color:#fff;
 			width:20%;
-			width:80%;
-			min-height: 100vh;
+			min-height:  158.5vh;
 		}
 		form{margin-top:3em;
 			label{display: inline-block;
@@ -28,21 +37,20 @@
 				margin-top: 4%;
 				font-weight: bold;
 				}
-		}		
-		.dare{margin-top:1%;
-			padding: 0%;
-			.cal{width:20%;
-				input {
+				img {
+						width:20%;
 						width: 15%;
 						MARGIN: 1%;
 						min-height: 2em;
 					}
+			}		
+		.dare{margin-top:1%;
+			padding: 0%;
 				}
 			.col{display: inline;
 				.contin{width:25%;
 					font-size: 1em;
 						}
-				}
 			}
 			input, textarea {
 				width: 100%;
