@@ -6,6 +6,9 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 body{
   background-color: #022339;
 }
+
+//Icons
+@import 'icons';
 @import 'category';
 @import 'timeline';
 @import 'Footer';

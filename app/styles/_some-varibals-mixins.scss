@@ -29,4 +29,29 @@
 		border-radius: 50%;
 		display: inline-block;
 		}
-		
+@mixin dark-blue-background{background-color:#012438;}
+@mixin size-fa{	
+	margin: 0%;
+	padding: 1%;
+	width: 4vw;
+	height: 4vw;
+	font-size: 3em;
+		}		
+@mixin mine-content{
+	min-height: 155.5vh;
+	margin-top: 3%;
+}
+@mixin mine-section{
+	width:80%;
+	min-height: 100vh;
+	float:left;
+}
+@mixin buttones-style{
+		@include dark-blue-background;
+		font-size: 2em;
+		text-transform: uppercase;
+		background-color: #012438;
+		color: #fff;
+		min-height: 2em;
+		min-width: 30%;
+}
