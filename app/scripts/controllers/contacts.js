@@ -8,10 +8,10 @@
  * Controller of the dareornotApp
  */
 angular.module('dareornotApp')
-  .controller('ContactsCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+  .controller('ContactsCtrl', ['NgMap', function(NgMap) {
+    NgMap.getMap().then(function(map) {
+      console.log(map.getCenter());
+      console.log('markers', map.markers);
+      console.log('shapes', map.shapes);
+    });
+  }]);
