@@ -10,6 +10,7 @@
  */
 angular
   .module('dareornotApp', [
+    'ui.bootstrap',
     'ngAnimate',
     'ngCookies',
     'ngResource',
