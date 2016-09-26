@@ -1,21 +1,23 @@
+/* CSS messages and progil amd start new dare*/
+
   @mixin mine-box{
 		width: 100%;
 		margin-top:0%;
 		margin-left:0%;
 		box-sizing: border-box;
-	}   
+	}
  @mixin box-varibal{
 		margin: 1%;
 		padding: 1%;
 		font-size: 1em;
-	}  
+	}
 @mixin Mine_Gray_background{
     		min-height: 158.5vh;
 			@include background-settings;
 			background-image:none;
    			background:#e8edf0; /*gray*/
    			color:#03b2d1;
-   			line-height: 1%;
+   			line-height: 1.8;
 			}
 @mixin background-settings{
   			 background-size: 100% 100%;
@@ -30,13 +32,13 @@
 		display: inline-block;
 		}
 @mixin dark-blue-background{background-color:#012438;}
-@mixin size-fa{	
+@mixin size-fa{
 	margin: 0%;
 	padding: 1%;
 	width: 4vw;
 	height: 4vw;
 	font-size: 3em;
-		}		
+		}
 @mixin mine-content{
 	min-height: 155.5vh;
 }
@@ -53,4 +55,10 @@
 		color: #fff;
 		min-height: 2em;
 		min-width: 30%;
+}
+
+@mixin img-settings{
+  margin: 2%;
+  width: 1em;
+  height: 1em;
 }
