@@ -1,0 +1,23 @@
+@charset "utf-8";
+@import "some-varibals-mixins";
+/* CSS Profil new dare */
+	.messages{				
+		h1, h3 {color:#16b8d4;}
+		.one{
+		     min-height: 158.5vh;
+			 background:#022d46;
+			 width:25%;
+			}
+		.two{@include Mine_Gray_background;
+			float:left;
+			width:50%;
+
+		}
+		.theree{@include Mine_Gray_background;
+				background:#012438;
+			    width:25%;
+				.fa{@include size-fa;
+					@include radius-fa;
+				}
+			 }
+		}
