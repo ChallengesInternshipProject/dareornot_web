@@ -1,0 +1,73 @@
+<div class="Administration row">
+  <!-- <div class="col-md-2">1</div> -->
+
+  <div class="col-md-8">
+    <!-- <button ng-click="administration.open()">Open</button> -->
+
+    <div class="dare">
+      <script type="text/ng-template" id="group-template.html">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title" style="color:black">
+          <a href tabindex="0" class="accordion-toggle" ng-click="toggleOpen()" uib-accordion-transclude="heading">
+            <span uib-accordion-header ng-class="{'text-muted': isDisabled}">
+              {{heading}}
+            </span>
+          </a>
+
+
+        </h4>
+          </div>
+          <div class="panel-collapse collapse" uib-collapse="!isOpen">
+            <div class="panel-body" style="text-align: left" ng-transclude></div>
+          </div>
+        </div>
+      </script>
+
+      <!-- <p>
+        <button type="button" class="btn btn-default btn-sm" ng-click="status.open = !status.open">Toggle last panel</button>
+        <button type="button" class="btn btn-default btn-sm" ng-click="status.isFirstDisabled = ! status.isFirstDisabled">Enable / Disable first panel</button>
+      </p> -->
+
+      <div class="checkbox">
+        <label>
+      <input type="checkbox" ng-model="administration.oneAtATime">
+      Open only one at a time
+    </label>
+      </div>
+      <uib-accordion close-others="administration.oneAtATime">
+
+        <div class="row dare-info" ng-repeat="dare in administration.dares">
+          <div class="col-md-9">
+            <div uib-accordion-group class="panel-default" template-url="group-template.html">
+              <uib-accordion-heading>
+                {{dare.title}}
+                <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.isCustomHeaderOpen, 'glyphicon-chevron-right': !status.isCustomHeaderOpen}"></i>
+
+              </uib-accordion-heading>
+
+              <div class="title">{{dare.description}}</div>
+
+            </div>
+
+          </div>
+          <div class="col-md-3">
+            <span class="buttons">
+          <button class="btn btn-default" ng-click="administration.approve(dare._id)">Approve</button>
+          <button class="btn btn-default"ng-click="administration.flag(dare._id)">Flag</button>
+          <button class="btn btn-default"ng-click="administration.remove(dare._id)">Remove</button>
+        </span>
+
+          </div>
+          <br>
+          <br>
+          <hr>
+        </div>
+
+
+      </uib-accordion>
+
+    </div>
+  </div>
+  <div class="col-md-4">3</div>
+</div>

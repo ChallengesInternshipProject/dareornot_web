@@ -3,6 +3,12 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
  // endbower
 //Variables
 //SCSS for pages
+body{
+  background-color: #022339;
+}
+
+//Icons
+@import 'icons';
 @import 'category';
 @import 'timeline';
 @import 'Footer';
@@ -12,5 +18,9 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import 'friends';
 // @import'landing';
 @import'news';
+@import 'start-new-dare';
+@import 'messages';
+@import 'administration';
+
 @import 'single-dare';
 @import 'register';
