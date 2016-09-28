@@ -1,0 +1,61 @@
+@import "some-varibals-mixins";
+/* CSS profile*/
+	.profile{line-height: 3;
+		h1{color:#fff; font-size:1.2em;}
+		.fa{
+			@include size-fa;
+			@include radius-fa;
+			width: 10vw;
+			height: 10vw;
+				}
+		aside{
+			.fa{
+
+			}
+			.cover{
+				width: 100%;
+				min-height: 30vh;
+				background-image: url(../images/6.jpg);
+				background-size: 100%;
+				margin: 0;
+				padding: 0;
+				-webkit-filter: blur(5px);
+				-moz-filter: blur(5px);
+				-o-filter: blur(5px);
+				-ms-filter: blur(5px);
+				filter: blur(5px);
+			}
+		}
+		menu{
+			.one{
+					background-color: #fff;
+
+			}
+			.two{
+				 background-color: #e8edf0;
+			nav{
+					ul {
+						    list-style-type: none;
+						    margin: 0;
+						    padding: 0;
+						    overflow: hidden;
+						    background-color: #e8edf0;
+						}
+					li {
+					    float: left;
+					}
+
+					li a {
+					    display: block;
+					    color: white;
+					    text-align: center;
+					    padding: 14px 16px;
+					    text-decoration: none;
+					}
+				}
+			}
+			.three{
+					background-color: #fff;
+			}
+		}
+}
