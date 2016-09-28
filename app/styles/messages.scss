@@ -79,14 +79,10 @@
 				background:#012438;
 			    line-height: 2.3;
 				i{
-					float: left;
-					margin-left: 1em;
-					width: 1em;
-					height: 1em;
+					@include some-i-style;
 					}
-			span{display:block;
-					 color:#ffb400;
-					 font-size: 9px;
+			span{
+					 @include span-color-blue;
 				}
 			 p{font-size: 9px;}
 			 img{
@@ -94,20 +90,6 @@
 				 	width: 2em;
 					height: 2em
 					}
-
-				 .sentdare{
-						width: 87%;
-						margin: 1%;
-						padding: 1%;
-						float: right;
-						position: relative;
-				    border: 1px solid	#fff;
-				    background-color: #3c6884;
-				    background-image: url(../images/Header/DareLogo.png);
-				    background-size: 20%;
-				    background-repeat: no-repeat;
-				    background-position: left;
-					}
-
+				 .sentdare{@include sentdare-button-style;}
 			}
 		}

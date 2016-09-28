@@ -62,3 +62,29 @@
   width: 1em;
   height: 1em;
 }
+@mixin sentdare-button-style {
+            color: #fff;
+            width: 87%;
+						margin: 1%;
+						padding: 1%;
+						float: right;
+						position: relative;
+				    border: 1px solid	#fff;
+				    background-color: #3c6884;
+				    background-image: url(../images/Header/DareLogo.png);
+				    background-size: 20%;
+				    background-repeat: no-repeat;
+				    background-position: left;
+
+}
+@mixin span-color-blue{
+       display:block;
+       color:#ffb400;
+       font-size: 9px;
+}
+@mixin some-i-style{
+      float: left;
+      margin-left: 1em;
+      width: 5.5vh;
+      height: 5.5vh;
+    }
