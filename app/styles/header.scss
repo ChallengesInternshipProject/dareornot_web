@@ -10,11 +10,12 @@ body{
 	font-size: 14px;
     line-height: 3;
     color: #fff;
+
 }
 p{
-	margin-top: 19px;
+	margin-top: 1.4vh;
 	color: #000;
-	line-height: 3vh;
+	line-height: 4vh;
 }
 
 
@@ -76,12 +77,6 @@ p{
 .navbar-inverse .navbar-toggle{
 	border: none;
 }
-
-.navbar-right{
-	margin-right: 7vw;
-		
-}
-
 .navbar-nav {
 	position: relative;
 	display: inline-block;
@@ -166,7 +161,7 @@ ul ul li{
 
 .useruser{
 	display: inline-block;
-	padding-left: 5px;
+	padding: 0.5vh;
 }
 
 .person {
@@ -211,21 +206,21 @@ ul ul li{
 	display: inline-block;
 	vertical-align: top;
 	font-size: 1vw;
-	padding-left: 1.5vw;
+	padding-left: 2vw;
 }
 
 .heart p{
 	display: inline-block;
 	vertical-align: top;
 	font-size: 1vw;
-	padding-left: 1.5vw;
+	padding-left: 2vw;
 }
 
 .comment p{
 	display: inline-block;
 	vertical-align: top;
 	font-size: 1vw;
-	padding-left: 1.5vw;
+	padding-left: 2vw;
 }
 
 // .search{
@@ -269,12 +264,23 @@ ul ul li{
 	padding-right: 4vw;
 }
 
-	@media screen and (max-width: 800px){
-	.navbar-right{
-		display: none;
+	
+
+
+}
+
+@media screen and (max-width: 865px){
+	.header{
+		.navbar-nav{
+			height: auto;
+			}
+		 .chellenge{
+		 	display: none;
+		 }
 	}
 
- 	.navbar-nav{
+	}
+	
 		height: auto;
 		}
 
