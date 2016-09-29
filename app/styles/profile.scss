@@ -1,155 +1,200 @@
 @import "some-varibals-mixins";
 /* CSS profile*/
-	.profile{line-height: 3;
-		h1{color:#fff; font-size:1.2em;}
-		.fa{
-			@include size-fa;
-			@include radius-fa;
-				}
-		aside{
-			.sentdare{@include sentdare-button-style;
-								width: 26%;
-								height: 6vh;
-								background-color: #012438;
-								color: #fff;
-								padding: 0;
-						    margin-top: 5vh;
-						    margin-right: 14vh;
-    						background-size: 17%;
-								text-align: center;
-							}
-			.cover{
-				width: 100%;
-				min-height: 30vh;
-				background-image: url(../images/6.jpg);
-				background-size: 94%;
-		    margin: 1%;
-		    padding: 1%;
-				-webkit-filter: blur(5px);
-				-moz-filter: blur(5px);
-				-o-filter: blur(5px);
-				-ms-filter: blur(5px);
-				filter: blur(5px);
-			}
-		}
-	.menu{
-			.one{min-height: 122vh;
-					background-color: #fff;
-					.profile-info{
-						margin-top: -6em;
-					  margin-left: 0.5vh;
-							h1 {
-										float: right;
-										color: #fff;
-										font-size: 1.5em;
-										margin-right: -6.4em;
-										margin-top: 7vh;
-										width: 100%;
-										vertical-align: super;
-									}
-							.fa{
-									width: 17vh;
-									height: 17vh;
-									padding: 0;
-									border: 2px solid #fff;
-							}
-					}
-					i{
-						@include some-i-style;
-						margin-top: 1vh;
-						margin-left: 7vh;
-						width: 2.5vh;
-						height: 2.5vh;
-						}
-				span{
-						 @include span-color-blue;
-						 font-size: 1.6vh;
-						 color: #03b2d1;
-					}
-				 p{font-size: 9px;}
-				 .login{text-align: center;}
-				 .notifications, .pictures{
-					 		margin: 1%;
-						 .fa{margin-left: 0;
-						     margin-right: 2.5vh;
-							 }
-							 span{margin-left: 3em;}
-							 .row{
-								 .row{
-									 margin-left: 1%;
-									 margin-right: 1%;
-									 aside{
-									  min-width: 30%;
-									 	min-height: 7vh;
-										margin: 1%;
-										padding: 1%;
-										background-color: #18293b;
-									 }
-								 }
-							 }
-				 }
-			}
-			.two{min-height: 122vh;
-				 background-color: #e8edf0;
-			nav{
-					.fa{
-						width: 6vw;
-						height: 6vw;
-					}
-					ul  {
-							    list-style-type: none;
-							    margin: 1%;
-							    padding: 1%;
-							    overflow: hidden;
-							    background-color: #e8edf0;
-							    width: 100%;
-							}
-					li {
-					    float: left;
-					}
+.profile {
+	line-height: 3;
 
-					li a {
-						display: block;
-				    color: white;
-				    text-align: center;
-				    /* padding: 14px 16px; */
-				    text-decoration: none;
-				    width: 100%;
-				    font-size: 8px;
-				    margin-top: 4em;
-				    /* margin-left: 1em; */
-				    /* margin-right: 1em; */
+	h1 {
+		color: #fff;
+		font-size: 1.2em;
+	}
+
+	.fa {
+		@include size-fa;
+		@include radius-fa;
+	}
+
+	aside {
+		.sentdare {
+			@include sentdare-button-style;
+			width: 26%;
+			height: 6vh;
+			background-color: #012438;
+			color: #fff;
+			padding: 0;
+			margin-top: 5vh;
+			margin-right: 14vh;
+			background-size: 17%;
+			text-align: center;
+		}
+
+		.cover {
+			width: 100%;
+			min-height: 30vh;
+			background-image: url("../images/6.jpg");
+			background-size: 94%;
+			margin: 1%;
+			padding: 1%;
+			-webkit-filter: blur(5px);
+			-moz-filter: blur(5px);
+			-o-filter: blur(5px);
+			-ms-filter: blur(5px);
+			filter: blur(5px);
+		}
+	}
+
+	.menu {
+		.one {
+			min-height: 122vh;
+			background-color: #fff;
+
+			.profile-info {
+				margin-top: -6em;
+				margin-left: 0.5vh;
+
+				h1 {
+					float: right;
+					color: #fff;
+					font-size: 1.5em;
+					margin-right: -6.4em;
+					margin-top: 7vh;
+					width: 100%;
+					vertical-align: super;
+				}
+
+				.fa {
+					width: 17vh;
+					height: 17vh;
+					padding: 0;
+					border: 2px solid #fff;
+				}
+			}
+
+			i {
+				@include some-i-style;
+				margin-top: 1vh;
+				margin-left: 7vh;
+				width: 2.5vh;
+				height: 2.5vh;
+			}
+
+			span {
+				@include span-color-blue;
+				font-size: 1.6vh;
+				color: #03b2d1;
+			}
+
+			p {
+				font-size: 9px;
+			}
+
+			.login {
+				text-align: center;
+			}
+
+			.notifications,
+			.pictures {
+				margin: 1%;
+
+				.fa {
+					margin-left: 0;
+					margin-right: 2.5vh;
+				}
+
+				span {
+					margin-left: 3em;
+				}
+
+				.row {
+					.row {
+						margin-left: 1%;
+						margin-right: 1%;
+
+						aside {
+							min-width: 30%;
+							min-height: 7vh;
+							margin: 1%;
+							padding: 1%;
+							background-color: #18293b;
+						}
 					}
 				}
 			}
-			.three{min-height: 122vh;
-					background-color: #fff;
-					.time {padding: 1%;
-						color: orange;
-						font-size: 8px;
-						display: inline;
-								float: right;
-					}
-					 .preview{
-						 color: orange;
-						 width: 90%;
-						 font-size: 5px;
-						 display: block;
-							 }
-				 span{
-							color: #03b2d1;
-						 }
-					h1{padding: 1%;
-						font-size: 10px;
-						position: relative;
-						display: inline;
-						color: #18293b;
-						text-align: center;
-					}
-					img{
-						 @include img-settings;
-							float: left;
-						}
+		}
+
+		.two {
+			min-height: 122vh;
+			background-color: #e8edf0;
+
+			nav {
+				.fa {
+					width: 6vw;
+					height: 6vw;
+				}
+
+				ul {
+					list-style-type: none;
+					margin: 1%;
+					padding: 1%;
+					overflow: hidden;
+					background-color: #e8edf0;
+					width: 100%;
+				}
+
+				li {
+					float: left;
+				}
+
+				li a {
+					display: block;
+					color: white;
+					text-align: center;
+					/* padding: 14px 16px; */
+					text-decoration: none;
+					width: 100%;
+					font-size: 8px;
+					margin-top: 4em;
+					/* margin-left: 1em; */
+					/* margin-right: 1em; */
+				}
 			}
 		}
+
+		.three {
+			min-height: 122vh;
+			background-color: #fff;
+
+			.time {
+				padding: 1%;
+				color: orange;
+				font-size: 8px;
+				display: inline;
+				float: right;
+			}
+
+			.preview {
+				color: orange;
+				width: 90%;
+				font-size: 5px;
+				display: block;
+			}
+
+			span {
+				color: #03b2d1;
+			}
+
+			h1 {
+				padding: 1%;
+				font-size: 10px;
+				position: relative;
+				display: inline;
+				color: #18293b;
+				text-align: center;
+			}
+
+			img {
+				@include img-settings;
+				float: left;
+			}
+		}
+	}
 }
