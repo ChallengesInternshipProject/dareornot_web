@@ -1,64 +1,103 @@
 /* CSS messages and progil amd start new dare*/
-
-  @mixin mine-box{
-		width: 100%;
-		margin-top:0%;
-		margin-left:0%;
-		box-sizing: border-box;
-	}
- @mixin box-varibal{
-		margin: 1%;
-		padding: 1%;
-		font-size: 1em;
-	}
-@mixin Mine_Gray_background{
-    		min-height: 158.5vh;
-			@include background-settings;
-			background-image:none;
-   			background:#e8edf0; /*gray*/
-   			color:#03b2d1;
-   			line-height: 1.8;
-			}
-@mixin background-settings{
-  			 background-size: 100% 100%;
-  			 text-align: center;
-  			 display: block;
-			 background-repeat: no-repeat;
-			 background-position: center;
-	 }
-@mixin radius-fa{
-		color: #fff;
-		border-radius: 50%;
-		display: inline-block;
-		}
-@mixin dark-blue-background{background-color:#012438;}
-@mixin size-fa{
-	margin: 0%;
-	padding: 1%;
-	width: 4vw;
-	height: 4vw;
-	font-size: 3em;
-		}
-@mixin mine-content{
-	min-height: 155.5vh;
+@mixin mine-box {
+  width: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  box-sizing: border-box;
 }
-@mixin mine-section{
-	width:80%;
-	min-height: 100vh;
-	float:left;
+@mixin box-varibal {
+  margin: 1%;
+  padding: 1%;
+  font-size: 1em;
 }
-@mixin buttones-style{
-		@include dark-blue-background;
-		font-size: 2em;
-		text-transform: uppercase;
-		background-color: #012438;
-		color: #fff;
-		min-height: 2em;
-		min-width: 30%;
+@mixin Mine_Gray_background {
+  min-height: 158.5vh;
+  @include background-settings;
+  background-image: none;
+  background: #e8edf0;
+  /*gray*/
+  color: #03b2d1;
+  line-height: 1.8;
 }
-
-@mixin img-settings{
+@mixin background-settings {
+  background-size: 100% 100%;
+  text-align: center;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@mixin dark-blue-background {
+  background-color: #012438;
+}
+@mixin radius-fa {
+  color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+@mixin size-fa {
+  margin: 0;
+  padding: 1%;
+  width: 4vw;
+  height: 4vw;
+  font-size: 3em;
+}
+@mixin mine-content {
+  min-height: 155.5vh;
+}
+@mixin mine-section {
+  width: 80%;
+  min-height: 100vh;
+  float: left;
+}
+@mixin buttones-style {
+   @include dark-blue-background;
+  font-size: 2em;
+  text-transform: uppercase;
+  background-color: #012438;
+  color: #fff;
+  min-height: 2em;
+  min-width: 30%;
+}
+@mixin img-settings {
   margin: 2%;
   width: 1em;
   height: 1em;
+}
+@mixin sentdare-button-style {
+  color: #fff;
+  width: 87%;
+  margin: 1%;
+  padding: 1%;
+  float: right;
+  position: relative;
+  border: 1px solid #fff;
+  background-color: #3c6884;
+  background-image: url("../images/Header/DareLogo.png");
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+@mixin span-color-blue {
+  display: block;
+  color: #ffb400;
+  font-size: 9px;
+}
+@mixin some-i-style {
+  float: left;
+  margin-left: 1em;
+  width: 5.5vh;
+  height: 5.5vh;
+}
+/*news varibals */
+@mixin box-shadow {
+  /*comming-1,  */
+  width: 97%;
+  height: 100vh;
+  padding: 0.5em;
+  margin: 3% 0.5em 0.5em;
+  display: inline-block;
+  text-align: center;
+  color: #18293a;
+  background: #ffffff;
+  box-shadow: 1vh 1vh 1vh #c4d2d8;
 }

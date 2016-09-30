@@ -1,113 +1,126 @@
 @import "some-varibals-mixins";
 /* CSS messages*/
-	.messages{line-height: 3;
-		h1{color:#fff; font-size:1.2em;}
-		.fa{
-			@include size-fa;
-			@include radius-fa;
-			width: 10vw;
-			height: 10vw;
-				}
+.messages {
+	line-height: 3;
+
+	h1 {
+		color: #fff;
+		font-size: 1.2em;
+	}
+
+	.fa {
+		@include size-fa;
+		@include radius-fa;
+		width: 10vw;
+		height: 10vw;
+	}
 	/* CSS left aside online friends*/
-		.one{
-		   min-height: 158.5vh;
-			 background:#022d46;
-			 .time {padding: 1%;
-				 color: orange;
-				 font-size: 8px;
-				 display: inline;
-				     float: right;
-			 }
-			  .preview{
-					color: orange;
-					width: 90%;
-					font-size: 5px;
-					display: block;
-						}
-			 h1{padding: 1%;
-				 font-size: 10px;
-				 position: relative;
-				 display: inline;
-			 }
-			 img{
-					@include img-settings;
-					 float: left;
-				 }
-			}
+	.one {
+		min-height: 158.5vh;
+		background: #022d46;
+
+		.time {
+			padding: 1%;
+			color: orange;
+			font-size: 8px;
+			display: inline;
+			float: right;
+		}
+
+		.preview {
+			color: orange;
+			width: 90%;
+			font-size: 5px;
+			display: block;
+		}
+
+		h1 {
+			padding: 1%;
+			font-size: 10px;
+			position: relative;
+			display: inline;
+		}
+
+		img {
+			@include img-settings;
+			float: left;
+		}
+	}
 	/* CSS central section chat with some one*/
-		.two{@include Mine_Gray_background;
-				 background-color: #e8edf0;
-				float:left;
-				.row{
-					.row{
-						margin-left: 0;
-  				  margin-right: 0;
-					}
-				}
-				img, p{
-					margin: 2%;
-				}
-				span{
-					color: #000;
-					margin: 1%
-				}
+	.two {
+		@include Mine_Gray_background;
+		background-color: #e8edf0;
+		float: left;
 
-				.you{
-						p{
-						  background: #066886;
-							color: #fff;
-						}
-						img{
-							 @include img-settings;
-								float: left;
-							}
-				}
-
-				.me{
-					p{
-						background: #fff;
-						color: #000;
-					}
-						img{
-								@include img-settings;
-								float: right;
-							}
-				}
-		}
-/*right aside Are you dare? send someone dare*/
-		.three{@include Mine_Gray_background;
-				background:#012438;
-			    line-height: 2.3;
-				i{
-					float: left;
-					margin-left: 1em;
-					width: 1em;
-					height: 1em;
-					}
-			span{display:block;
-					 color:#ffb400;
-					 font-size: 9px;
-				}
-			 p{font-size: 9px;}
-			 img{
-				  @include img-settings;
-				 	width: 2em;
-					height: 2em
-					}
-
-				 .sentdare{
-						width: 87%;
-						margin: 1%;
-						padding: 1%;
-						float: right;
-						position: relative;
-				    border: 1px solid	#fff;
-				    background-color: #3c6884;
-				    background-image: url(../images/Header/DareLogo.png);
-				    background-size: 20%;
-				    background-repeat: no-repeat;
-				    background-position: left;
-					}
-
+		.row {
+			.row {
+				margin-left: 0;
+				margin-right: 0;
 			}
 		}
+
+		img,
+		p {
+			margin: 2%;
+		}
+
+		span {
+			color: #000;
+			margin: 1%;
+		}
+
+		.you {
+			p {
+				border-radius: 12px;
+				background: #066886;
+				color: #fff;
+			}
+
+			img {
+				@include img-settings;
+				float: left;
+			}
+		}
+
+		.me {
+			p {
+				border-radius: 12px;
+				background: #fff;
+				color: #000;
+			}
+
+			img {
+				@include img-settings;
+				float: right;
+			}
+		}
+	}
+	/*right aside Are you dare? send someone dare*/
+	.three {
+		@include Mine_Gray_background;
+		background: #012438;
+		line-height: 2.3;
+
+		i {
+			@include some-i-style;
+		}
+
+		span {
+			@include span-color-blue;
+		}
+
+		p {
+			font-size: 9px;
+		}
+
+		img {
+			@include img-settings;
+			width: 2em;
+			height: 2em;
+		}
+
+		.sentdare {
+			@include sentdare-button-style;
+		}
+	}
+}
