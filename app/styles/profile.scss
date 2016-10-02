@@ -155,6 +155,51 @@
 					@include nav-ul-a;
 				}
 			}
+
+		.demo{
+			.carousel{
+				width: 96%;
+				margin: 2vh;
+
+			}
+			.carousel-inner>.active{
+				max-height: 42vh;
+
+			}
+
+			.carousel-control{
+				height:70%;
+			}
+
+			.slider-container .container-fluid{
+				padding-left: 0px;
+				width: 60%;
+
+			}
+
+			.carousel-control.left{
+				background-image: none;
+			}
+
+			.carousel-control.right{
+				background-image: none;
+			}
+			h1 {
+				@include user-name;
+				font-size: 1.5em;
+				margin-right: -7.9em;
+				margin-top: -20vh;
+			}
+
+		}
+		.img-fa {
+			@include radius-fa;
+			@include user-img;
+			width: 20vh;
+			height: 20vh;
+		}
+
+
 		}
 
 		.three {

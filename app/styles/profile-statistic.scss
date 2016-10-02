@@ -181,7 +181,10 @@
 						background: url("../images/profiles/statistic.jpg");
 						@include img-style;
 					}
-
+					.image1 {
+						background: url("../images/profiles/statistics1.jpg");
+						@include img-style;
+					}
 					.image2 {
 						background: url("../images/profiles/statistics2.jpg");
 						@include img-style;
