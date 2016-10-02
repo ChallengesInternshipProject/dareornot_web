@@ -1,0 +1,158 @@
+/* CSS profiles and profile-statistics*/
+@mixin mine-height {
+    min-height: 140.3vh;
+}
+
+@mixin sent-dare {
+    width: 29%;
+    height: 10vh;
+    margin-top: -1vh;
+    margin-right: -11vh;
+    background-size: 13%;
+    background-color: #012438;
+    text-align: center;
+    border: none;
+}
+@mixin cover-style{
+    width: 100%;
+    min-height: 62vh;
+    background-size: 94%;
+    margin: 1%;
+    padding: 1%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+@mixin img-style{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 99% 99%;
+    display: inline-block;
+}
+@mixin social {
+    width: 5vh;
+    height: 5vh;
+    margin-right: 5vh;
+}
+@mixin user-name {
+    float: right;
+    color: #fff;
+    font-size: 2.5em;
+    margin-right: -6.9em;
+    margin-top: 4vh;
+    width: 100%;
+    vertical-align: super;
+}
+@mixin user-img {
+    margin-top: -10vh;
+    margin-left: 3vh;
+    width: 34vh;
+    height: 34vh;
+    padding: 0;
+    border: 1vh solid #fff;
+}
+
+@mixin icones-fa {
+    width: 17vh;
+    height: 17vh;
+    padding: 0;
+    border: 2px solid #fff;
+}
+@mixin notifications-fa {
+    margin-left: 0;
+    margin-right: 2.5vh;
+    width: 10vh;
+    height: 10vh;
+
+}
+@mixin nav-fa {
+    width: 5.5vw;
+    height: 4.5vw;
+    margin-right: 4.5vh;
+    margin-top: 4vh;
+}
+@mixin one-i-style {
+    margin-top: 1vh;
+    width: 4.5vh;
+    height: 4.5vh;
+}
+@mixin one-span-i-style {
+    margin-top: 2vh;
+    width: 5.5vh;
+    height: 5.5vh
+}
+@mixin span-style {
+    display: block;
+    font-size: 2.6vh;
+    color: #03b2d1;
+    width: 72%;
+    float: right;
+}
+@mixin soon-formating {
+    text-align: center;
+    font-size: 3.5vh;
+    width: 100%;
+    line-height: 1.7;
+}
+@mixin some-categories {
+    min-width: 30%;
+    min-height: 13vh;
+    margin: 1%;
+    padding: 1%;
+    background-color: #18293b;
+}
+@mixin nav-ul {
+    margin-left: -3vh;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #e8edf0;
+    width: 100%;
+    height: 20vh;
+}
+@mixin nav-ul-a {
+    display: block;
+    color: #03b2d1;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    font-size: 1.2vh;
+    margin-top: 10vh;
+}
+@mixin section-three-style {
+    background-color: #fff;
+    float: right;
+    line-height: 2vh;
+    margin-right: -10vh;
+    margin-top: - 140.3vh;
+}
+@mixin some-time {
+    padding: 1%;
+    color: orange;
+    font-size: 1.2vh;
+    display: inline;
+    float: right;
+}
+@mixin some-preview {
+    color: orange;
+    width: 90%;
+    font-size: 5px;
+    display: block;
+}
+@mixin heder-style {
+    padding: 1%;
+    font-size: 3vh;
+    color: #18293b;
+    position: relative;
+    display: inline;
+    text-align: center;
+}
+@mixin img-span {
+    margin-left: 7%;
+    padding: 2%;
+    width: 1em;
+    height: 1em;
+    float: left;
+}
