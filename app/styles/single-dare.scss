@@ -177,12 +177,22 @@
 .fix{
 	height: 20vh;
 	img{
+		display: inline-block;
 		width: 4vw;
 	    height: 8vh;
 	    margin-top: 16vh;
+	    margin-left: -0.4vw;
 	    border: 1px solid transparent;
 	    border-radius: 50%;
+
 	}
+	p{	
+		vertical-align: top;
+	 	display: inline-block;
+	    color: #fff;
+	    margin-top: 19vh;
+    	margin-left: 0.5vw;
+	     }
 }
 
 .adition{
