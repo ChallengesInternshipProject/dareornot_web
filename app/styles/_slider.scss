@@ -1,0 +1,95 @@
+/* CSS slider and user footer */
+@import "some-varibals-mixins";
+@import "some-varibals-mixins-profiles";
+@mixin slider-demo {
+    min-height: 65vh;
+    width: 94%;
+    margin: -1vh;
+    background-color: #fff;
+    .carousel {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .carousel-inner > .active {
+        max-height: 60vh;
+    }
+
+    .carousel-control {
+        height: 70%;
+    }
+
+    .slider-container .container-fluid {
+        padding-left: 0;
+        width: 60%;
+    }
+
+    .carousel-control.left {
+        background-image: none;
+    }
+
+    .carousel-control.right {
+        background-image: none;
+    }
+
+    h1 {
+        float: left;
+        color: #fff;
+        width: 30vh;
+        font-size: 1.5em;
+        margin-left: 5.1em;
+        margin-top: -16vh;
+        position: relative;
+    }
+
+    h3 {
+        float: left;
+        color: #fff;
+        width: 100%;
+        font-size: 1.5em;
+        margin-left: -15vh;
+        margin-top: -45vh;
+        position: relative;
+    }
+
+    .user {
+
+
+        span {
+            display: inline;
+            font-size: 2vh;
+            color: #03b2d1;
+            width: 60%;
+            float: left;
+        }
+    }
+
+    .fa {
+        width: 5vh;
+        height: 5vh;
+        float: left;
+    }
+
+    .time {
+        width: 25%;
+    }
+}
+
+@mixin footer-img-fa {
+    @include radius-fa;
+    @include user-img;
+    margin-left: -1vh;
+    width: 20vh;
+    height: 20vh;
+}
+
+@mixin footer-notifications {
+    .fa {
+        width: 10vh;
+        height: 10vh;
+        float: left;
+        margin-left: -11vh;
+        margin-top: -1.5vh;
+    }
+}

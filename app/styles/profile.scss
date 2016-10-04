@@ -1,5 +1,6 @@
 @import "some-varibals-mixins";
 @import "some-varibals-mixins-profiles";
+@import "slider";
 /* CSS profile*/
 .profile {
 	line-height: 3;
@@ -157,94 +158,15 @@
 			}
 
 			.demo {
-				width: 94%;
-				margin: -1vh;
-				background-color: #fff;
-				.carousel {
-					width: 100%;
-					margin: 0;
-    				padding: 0;
-				}
-
-				.carousel-inner > .active {
-					max-height: 42vh;
-				}
-
-				.carousel-control {
-					height: 70%;
-				}
-
-				.slider-container .container-fluid {
-					padding-left: 0;
-					width: 60%;
-				}
-
-				.carousel-control.left {
-					background-image: none;
-				}
-
-				.carousel-control.right {
-					background-image: none;
-				}
-
-				h1 {
-					float: left;
-					color: #fff;
-					width: 100%;
-					font-size: 1.5em;
-					margin-left: 5.1em;
-					margin-top: -20vh;
-				}
-
-				h3 {
-					float: left;
-					color: #fff;
-					width: 100%;
-					font-size: 1.5em;
-					margin-left: -30%;
-					margin-top: -40%;
-					position: relative;
-				}
-
-				.user {
-
-
-					span {
-						display: inline;
-						font-size: 2vh;
-						color: #03b2d1;
-						width: 60%;
-						float: left;
-					}
-				}
-
-				.fa {
-					width: 5vh;
-					height: 5vh;
-					float: left;
-				}
-
-				.time {
-					width: 25%;
-				}
+				@include slider-demo;
 			}
 
 			.img-fa {
-				@include radius-fa;
-				@include user-img;
-				margin-left: -1vh;
-				width: 20vh;
-				height: 20vh;
+				@include footer-img-fa;
 			}
 
 			.notifications {
-				.fa {
-					width: 10vh;
-					height: 10vh;
-					float: left;
-					margin-left: -11vh;
-					margin-top: -1.5vh;
-				}
+				@include footer-notifications;
 			}
 		}
 
