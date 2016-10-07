@@ -186,12 +186,34 @@
 	    border-radius: 50%;
 
 	}
+
+
 	p{	
 		vertical-align: top;
 	 	display: inline-block;
 	    color: #fff;
 	    margin-top: 19vh;
     	margin-left: 0.5vw;
+	     }
+}
+
+.fixed{
+	height: 10vh;
+	img{
+		display: inline-block;
+	    height: 8vh;
+	    margin-top: 16vh;
+	    border: 1px solid transparent;
+	    border-radius: 50%;
+	    float: right;
+
+	}
+
+	
+	p{	
+		vertical-align: top;
+	 	display: inline-block;
+	    color: #fff;
 	     }
 }
 
@@ -283,6 +305,7 @@
 		}
 	}
 }
+
 
 .text{
 	width: 64vw;
