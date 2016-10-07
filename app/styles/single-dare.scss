@@ -198,28 +198,29 @@
 }
 
 .fixed{
-	height: 10vh;
 	img{
-		display: inline-block;
-	    height: 8vh;
-	    margin-top: 16vh;
+		display: block;
 	    border: 1px solid transparent;
 	    border-radius: 50%;
 	    float: right;
+	    max-width: 5vw;
 
 	}
 
 	
 	p{	
-		vertical-align: top;
-	 	display: inline-block;
+		font-size: 1vw;
+	 	display:block;
 	    color: #fff;
 	     }
 }
-
+.pic{
+	max-width: 8vw;
+	max-height: 10vh;
+}
 .adition{
 		background-image: none;
-
+		width: 0%;
 }
 
 	.social{
