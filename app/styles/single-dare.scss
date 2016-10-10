@@ -25,7 +25,7 @@
 
 		.content-dare{
 			background-color: #e8edf0;
-			width: 93.8vw;
+			width: 100%;
 			height: 180vh;
 			margin-left: -0.8vw;
 			}
@@ -169,7 +169,7 @@
 	.approve{
 		color:#03b2d1;
 		font-size: 1vw;
-		margin-left: 23vw;
+		text-align: center;
 		margin-top: 3vh; 
 	}
 
@@ -209,19 +209,26 @@
 
 	
 	p{	
-		font-size: 1vw;
+		font-size: 0.9vw;
 	 	display:block;
 	    color: #fff;
+	    text-align: center;
+	    margin-left: 1vw;
 	     }
 }
 .pic{
 	max-width: 8vw;
-	max-height: 10vh;
+	padding-left: 0px;
 }
 .adition{
 		background-image: none;
-		width: 0%;
 }
+
+.arrow-adition{
+	width: auto;
+    min-width: 30px;
+    margin-bottom: 8vh;
+    }
 
 	.social{
 		height: 4vh;
@@ -237,7 +244,7 @@
 				
     			height: 8vh;
 			}
-}
+	}
 
 	.soc-t{
 		display: inline-block;
@@ -332,7 +339,7 @@
 	    padding-left: 0px;
 	    padding-right: 0px;
 	    margin-left: 2.4vw;
-	    margin-top: -56vh;
+	    margin-top: -126vh;
 	.blue{
 		height: 46.7em;
 		background-color: #002c47;
