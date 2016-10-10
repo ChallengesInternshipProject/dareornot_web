@@ -1,0 +1,250 @@
+@import "some-varibals-mixins";
+@import "some-varibals-mixins-profiles";
+@import "slider";
+
+.landing {
+  @include mine-box;
+
+  h1 {
+    @include box-varibal;
+    color: #066886;
+  }
+
+  span {
+    font-size: 1.5em;
+    color: #066886;
+  }
+
+  .demo {
+    margin: 0;
+    padding: 0;
+    height: 105vh;
+    width: 93.5vw;
+    position: relative;
+
+    .carousel {
+      height: 90vh;
+    }
+
+    .user {
+      .profile-info {
+        display: -webkit-box;
+      }
+    }
+  }
+
+  .fa {
+    @include size-fa;
+    @include radius-fa;
+  }
+
+  .img-fa {
+    @include footer-img-fa;
+  }
+
+  .notifications {
+    @include footer-notifications;
+  }
+
+  .dare {
+    float: right;
+    margin-top: 0;
+    /* width: 1798px; */
+    /* height: 1372px; */
+    position: relative;
+    color: #fff;
+    background: #e8edf0;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .row {
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+
+    h1 {
+      @include box-varibal;
+      font-size: 2em;
+    }
+
+    .coming {
+      width: 33%;
+      height: auto;
+      display: inline-block;
+
+      .user-dare {
+        color: #066886;
+        position: relative;
+        padding: 20px;
+        margin: 0;
+
+        p {
+          font-size: 3em;
+          margin: 0;
+        }
+
+        h2 {
+          color: #ffb400;
+          font-size: 2em;
+        }
+      }
+    }
+
+    .coming-1 {
+      width: 31%;
+      height: 25vw;
+      padding: 0.5em;
+      margin: 0.5em;
+      display: inline-block;
+      color: #fff;
+      background: #fff;
+      box-shadow: 10px 10px 12px #c4d2d8;
+      text-align: center;
+
+      .demo-1 {
+        width: 100%;
+        position: relative;
+
+        img {
+          display: block;
+          width: 100%;
+          height: 20vw;
+        }
+      }
+    }
+  }
+
+  .img-circle {
+    border-radius: 50%;
+    border: 5px solid;
+    width: 50%;
+  }
+
+  .consumption {
+    height: 24%;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      display: inline-flex;
+      width: 100%;
+
+      li {
+        width: 15%;
+        display: inline;
+        padding: 2.5%;
+
+        a {
+          color: #50cadf;
+          text-decoration: none;
+
+          img {
+            width: 6em;
+            height: 6em;
+            line-height: 6em;
+          }
+
+          h2 {
+            color: #066886;
+          }
+
+          i {
+            float: left;
+            color: #ffb400;
+          }
+        }
+      }
+    }
+  }
+
+  .publicity {
+    background: #fff;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+    .call {
+      height: 42em;
+      background: #066886;
+      padding: 3%;
+
+      .iphone {
+        margin-top: 0;
+        float: right;
+        width: 25%;
+        height: 123%;
+        right: auto;
+        color: #fff;
+        display: inline;
+      }
+
+      h1 {
+        font-size: 5em;
+        color: #fff;
+      }
+
+      p {
+        color: #fff;
+        font-size: 2em;
+        text-align: left;
+        padding: 1%;
+      }
+    }
+
+    .bulletin {
+      height: 16%;
+      width: 70%;
+    }
+  }
+
+  .grade {
+    /*height: 1379px;*/
+    background: #e8edf0;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      text-align: center;
+
+      li {
+        display: inline-block;
+        padding: 20px;
+
+        a {
+          color: #066886;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .img-size {
+      width: 10em;
+      height: 7em;
+    }
+  }
+
+  .cover {
+    float: right;
+    width: 100%;
+    /*height: 810px;*/
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: #fff;
+
+    .row {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      display: block;
+    }
+  }
+}

@@ -1,17 +1,7 @@
 <section class="landing">
-  <div class="demo">
-    <div id="mycarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#mycarousel" data-slide-to="1"></li>
-        <li data-target="#mycarousel" data-slide-to="2"></li>
-        <li data-target="#mycarousel" data-slide-to="3"></li>
-        <li data-target="#mycarousel" data-slide-to="4"></li>
-      </ol>
-
+  <article class="row demo">
+    <div id="mycarousel" class="row carousel slide" data-ride="carousel">
       <!-- Wrapper for slides -->
-
       <div class="carousel-inner carousel slide" data-ride="carousel">
         <div class="item active">
           <div class="carousel-caption">
@@ -44,7 +34,6 @@
           </div>
         </div>
       </div>
-
       <!-- Controls -->
       <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -56,41 +45,36 @@
       </a>
     </div>
     <div class="user">
-      <div class="user-pic"><img class="img-circle" src="images/timeline/photo.jpg"></div>
-      <div class="user-name">Милена Милчева</div>
-    </div>
-    <div class="info">
-      <div class="timetime">
-        <div class="timecheck">
-          <img src="images/timeline/location-icon.png">
-        </div>
-        <!-- change that to col -->
-        <div class="row">
-            <i class="fa app-icon-location-active"></i>
-            <span> София</span>
-        </div>
-        <div class="timeclock">
-          <img src="images/timeline/time.png">
-        </div>
-        <div class="time">
-          <p>Преди 4 часа и 30 минути</p>
-        </div>
+      <div class="profile-info col-sm-3 col-lg-3">
+        <img class="img-fa" src="../images/single-dare/ben.png" />
+        <h1>Ива Стефанова</h1>
       </div>
-      <!-- change that to col -->
-      <div class="row notifications">
-        <i class="fa app-icon-user"><span> 323</span></i>
-        <i class="fa app-icon-chat"><span>342  </span></i>
-        <i class="fa app-icon-love"><span>423</span></i>
+      <div class="col-sm-2 col-lg-2">
+        <i class="fa app-icon-location-active"></i>
+        <span> София</span>
       </div>
-      <div class="clock">
-        <h6>
-       			<p>Оставащо време</p>
-       						23:40Ч.
-       		</h6>
+      <div class="time col-sm-2 col-lg-2">
+        <i class="fa app-icon-time-active"></i>
+        <span>Преди 4 часа и 30 мин</span>
+      </div>
+      <div class="notifications col-sm-1 col-lg-1">
+        <span>323</span>
+        <i class="fa app-icon-user-active"></i>
+      </div>
+      <div class="notifications col-sm-1 col-lg-1">
+        <span>342</span>
+        <i class="fa app-icon-chat-active"></i>
+      </div>
+      <div class="notifications col-sm-1 col-lg-1">
+        <span>423</span>
+        <i class="fa app-icon-love-active"></i>
+      </div>
+      <div class="clock col-sm-2 col-lg-2">
+        <i class="fa app-icon-time-active"></i>
+        <span>23 : 44 ч.</span>
       </div>
     </div>
-  </div>
-
+  </article>
   <article class="dare">
     <div class="row">
       <div class="coming">
@@ -167,7 +151,6 @@
       </article>
     </div>
   </article>
-
   <article class="publicity">
     <div class="consumption">
       <h1>Най-активни потребители</h1>
@@ -255,7 +238,6 @@
       </form>
     </div>
   </article>
-
   <article class="grade">
     <div class="row">
       <h1>Класации</h1>
@@ -343,21 +325,30 @@
         <div class="user-2">
           <img src="img/photo.jpg" align="top" class="img-circle" />
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco
+             laboris nisi ut aliquip ex ea commodo consequat.</span>
       </article>
       <article class="coming-1">
         <h3>Милен Милчев</h3>
         <div class="user-2">
           <img src="img/photo.jpg" align="top" class="img-circle" />
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco
+             laboris nisi ut aliquip ex ea commodo consequat.</span>
       </article>
       <article class="coming-1">
         <h3>Милен Милчев</h3>
         <div class="user-2">
           <img src="img/photo.jpg" align="top" class="img-circle" />
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco
+             laboris nisi ut aliquip ex ea commodo consequat.</span>
       </article>
     </div>
   </article>
