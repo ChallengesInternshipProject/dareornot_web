@@ -39,12 +39,13 @@
         <div class="col-sm-12" ng-include="'views/header.html'"></div>
       </div>
 
+  <div class="row">
+      <div class="side-menu col-sm-1 col-lg-1 pull-left sidenav" ng-include="'views/side-menu.html'"></div>
 
-      <div class="side-menu col-sm-2 col-lg-2 pull-left sidenav" ng-include="'views/side-menu.html'"></div>
-
-      <div class="container col-sm-11 col-lg-11">
+      <div class="container col-sm-11 col-lg-11 pull-right">
         <div ng-view=""></div>
       </div>
+  </div>
       <!--<div class="chat-container container col-sm-2 col-lg-2" ng-include="'views/chat.html'"></div>-->
 
 
