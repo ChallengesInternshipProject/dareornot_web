@@ -5,12 +5,16 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 //SCSS for pages
 body{
   background-color: #022339;
-  font-family:'MyWebFont',"Open Sans";
+  @font-face {
+  font-family: 'Open Sans';
+  src: url('myfont.woff2') format('woff2');
+}
 }
 
 .no-padding{
 			padding: 0px;
 		}
+
 
 //Icons
 @import 'icons';
