@@ -32,24 +32,24 @@
 
   <!-- Add your site or application content here -->
 
-  <div class="container-fluid">
-    <div class="row content">
+  <div class="container-fluid no-padding">
+    <div class="content">
 
-      <div class="row">
-        <div class="col-sm-12" ng-include="'views/header.html'"></div>
+      <div>
+        <div ng-include="'views/header.html'"></div>
       </div>
 
+      <div>
+      <div class="side-menu pull-left sidenav" ng-include="'views/side-menu.html'"></div>
 
-      <div class="side-menu col-sm-2 col-lg-2 pull-left sidenav" ng-include="'views/side-menu.html'"></div>
-
-      <div class="container col-sm-11 col-lg-11">
+      <div class="container-fluid no-padding">
         <div ng-view=""></div>
       </div>
       <!--<div class="chat-container container col-sm-2 col-lg-2" ng-include="'views/chat.html'"></div>-->
+      </div>
 
-
-      <div class="row">
-        <div class="col-sm-12" ng-include="'views/footer.html'"></div>
+      <div>
+        <div ng-include="'views/footer.html'"></div>
       </div>
 
     </div>
@@ -80,6 +80,7 @@
   <script src="bower_components/angular-touch/angular-touch.js"></script>
   <script src="bower_components/ngmap/build/scripts/ng-map.js"></script>
   <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
   <!-- endbower -->
   <!-- endbuild -->
 

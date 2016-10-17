@@ -4,35 +4,38 @@
 		.dare-pic{
 			display: inline-block;
 			vertical-align: top;
-			width: 98.8vw;
-			margin-left: -1.9vw;
+			padding: 0px;
+		}
+
+		.container-fluid{
+			margin-right: -0.8%;
+			padding: 0px;
 		}
 	
 		.dare-pic img{
-			display: inline-block;
-			vertical-align: top;
-			width: 73%;
-			height: 430px;
-			margin-left: -0.3vw;
+			// display: inline-block;
+			// vertical-align: top;
+			// width: 100%;
+			// height: 39vh;
+		
 
 		}
 		.map-dare{
 			display: inline-block;
 			vertical-align: top;
-			width: 20vw;
-    		height: 39vh;
+    		height: auto;
+
 		}
 
 		.content-dare{
 			background-color: #e8edf0;
-			width: 93.8vw;
-			height: 180vh;
-			margin-left: -0.8vw;
+			height: 214vh;
+			margin-left: 5.7vw;
 			}
 		.accept{
-			width: 66vw;
+			width: 65vw;
     		height: 18vh;
-    		margin-left: 3vw;
+    		margin-left: 1.7vw;
 		}
 
 		.accept-dare{
@@ -55,7 +58,7 @@
 			display: inline-block;
 			vertical-align: top;
 			height: 17vh;
-			width: 26vw;
+			width: 27vw;
 			margin-top: 2vh;
 		}
 
@@ -86,222 +89,266 @@
 			
 		}
 
-	.likeLike{
-	 	display:inline-block;
-	 }
+		.likeLike{
+		 	display:inline-block;
+		 }
 
-	.person{
-	 	display: inline-block;
-		vertical-align: top;
-		background-image: url(../images/timeline/user1.png);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 4em;
-		height: 8vh;
-		padding-top: 1vh;
-    	padding-left: 2vw;
-	 }
+		.person{
+		 	display: inline-block;
+			vertical-align: top;
+			background-image: url(../images/timeline/user1.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 3.5em;
+			height: 8vh;
+			padding-top: 1vh;
+	    	padding-left: 2vw;
+		 }
 
-	.comment{
-	 	display: inline-block;
-		vertical-align: top;
-		background-image: url(../images/timeline/speech1.png);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 4em;
-		height: 8vh;
-		padding-top: 1vh;
-    	padding-left: 2vw;
-	 }
+		.comment{
+		 	display: inline-block;
+			vertical-align: top;
+			background-image: url(../images/timeline/speech1.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 3.5em;
+			height: 8vh;
+			padding-top: 1vh;
+	    	padding-left: 2vw;
+		 }
 
-	.heart{
-	 	display: inline-block;
-		vertical-align: top;
-		background-image: url(../images/timeline/love1.png);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 4em;
-		height: 8vh;
-		padding-top: 1vh;
-    	padding-left: 2vw;
-	 }
+		.heart{
+		 	display: inline-block;
+			vertical-align: top;
+			background-image: url(../images/timeline/love1.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 3.5em;
+			height: 8vh;
+			padding-top: 1vh;
+	    	padding-left: 2vw;
+		 }
 
-	.likeLike>p{
-		display: inline-block;
-		vertical-align: top;
-		font-size: 4vh;
-		color: #03b2d1;
-		margin-right: 2.2vw;
-		padding-left: 4px;
-	}
+		.likeLike>p{
+			display: inline-block;
+			vertical-align: top;
+			font-size: 3.5vh;
+			color: #03b2d1;
+			margin-right: 2.2vw;
+			padding-left: 4px;
+		}
 
-	.likeLike .person{
-		width: 4vw;
-	}
+		.likeLike .person{
+			width: 4vw;
+		}
 
- 	.likeLike .comment{
-		width: 3vw;
-	}
+	 	.likeLike .comment{
+			width: 3vw;
+		}
 
-	.likeLike .heart{
-		width: 3vw;
-	}
+		.likeLike .heart{
+			width: 3vw;
+		}
 
 
 
-	.clock h6>p{
-		color:#ffc000;
-		font-size: 3vh;
-    	line-height: 0vh;
-	}
-	.clock{
-		display: inline-block;
-		vertical-align: top;
-		padding-left: 8vh;
-    	padding-top: 4vh;
-		h6{
+		.clock h6>p{
+			color:#ffc000;
+			font-size: 3vh;
+	    	line-height: 0vh;
+		}
+		.clock{
+			display: inline-block;
+			vertical-align: top;
+			padding-left: 8vh;
+	    	padding-top: 4vh;
+			h6{
+				color:#03b2d1;
+				font-size: 7.5vh;
+				line-height: 10vh;
+			}
+		}
+
+		.approve{
 			color:#03b2d1;
-			font-size: 7.5vh;
-			line-height: 10vh;
+			font-size: 1vw;
+			text-align: center;
+			margin-top: 3vh;
+			line-height: 11vh; 
 		}
-	}
 
-	.approve{
-		color:#03b2d1;
-		font-size: 1vw;
-		margin-left: 23vw;
-		margin-top: 3vh; 
-	}
-
-	
-.fix{
-	img{
-		display: inline-block;
-		width: 10vw;
-		height: 15vh;
-		margin-left: 4vw;
-		margin-top: 2vh;
-	}
-}
-
-.adition{
-		background-image: none;
-		margin-left: 4vw;
-}
-
-	.social{
-		height: 4vh;
-		width: 100%;
-		margin: 5vw 10vw 5vw;
-	}
-
-	.soc-g{
-		display: inline-block;
-		vertical-align: top;
-		margin-right: 1vw;
+		
+		.fix{
+			height: 20vh;
+			margin-left: 0.8vw;
 			img{
-				width: 3.6vw;
-    			height: 8vh;
-			}
-}
+				display: inline-block;
+				width: 4vw;
+			    height: 8vh;
+			    margin-top: 16vh;
+			    margin-left: -0.4vw;
+			    border: 1px solid transparent;
+			    border-radius: 50%;
 
-	.soc-t{
-		display: inline-block;
-		vertical-align: top;
-		margin-right: 1vw;
+			}
+
+
+			p{	
+				vertical-align: top;
+			 	display: inline-block;
+			    color: #fff;
+			    margin-top: 19vh;
+		    	margin-left: 0.5vw;
+			     }
+	}
+
+		.fixed{
 			img{
-				// width: 11.6vw;
-    			height: 8.1vh;
+				display: block;
+			    border: 1px solid transparent;
+			    border-radius: 50%;
+			    float: right;
+			    max-width: 5vw;
+
 			}
-}
 
-	.soc-f{
-		display: inline-block;
-		vertical-align: top;
-		margin-right: 1vw;
-			img{
-				// width: 4.6vw;
-				height: 8.7vh;
+		
+			p{	
+				font-size: 0.9vw;
+			 	display:block;
+			    color: #012438;
+			    width: 18vw;
+			    margin-left: -2vw;
+		     }
+	}
+		.pic{
+			max-width: 8vw;
+			margin-left: 2.5vw;
+		}
+		.adition{
+			background-image: none;
+		}
+
+		.arrow-adition{
+			width: auto;
+		    min-width: 30px;
+		    margin-bottom: 8vh;
+		    }
+
+		.social{
+				height: 4vh;
+				width: 100%;
+				margin: 9vh 5.9vw 4vh;
 			}
-}
 
-	.send-challenge{
-		width: 13vw;
-		height: 7vh;
-		border: none;
-    	color: white;
-   	 	text-align: center;
-    	text-decoration: none;
-   		display: inline-block;
-		background-color: #3c6884;
-		text-align: center;
-		line-height: 4vh;
-		margin-right: 1vw;
-			p{
-				color: #fff;
-				font-size: 1vw;
-				margin: 0 0 4px;
+		.soc-g{
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 1vw;
+				img{
+					
+	    			height: 8vh;
+				}
 		}
-}
 
-	.accept-challenge{
-		width: 26vw;
-		height: 7vh;
-		border: none;
-    	color: white;
-   	 	text-align: center;
-    	text-decoration: none;
-   		display: inline-block;
-		background-color: #012438;
-		text-align: center;
-		line-height: 4vh;
-			p{
-				color: #fff;
-				font-size: 1.2vw;
-				margin: 0 0 4px;
+		.soc-t{
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 1vw;
+				img{
+	    			height: 8.1vh;
+				}
+	}
+
+		.soc-f{
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 1vw;
+				img{
+					width: 4.4vw;
+					height: 8.7vh;
+				}
+	}
+
+		.send-challenge{
+			width: 13vw;
+			height: 7vh;
+			border: none;
+	    	color: white;
+	   	 	text-align: center;
+	    	text-decoration: none;
+	   		display: inline-block;
+			background-color: #3c6884;
+			text-align: center;
+			line-height: 4vh;
+			margin-right: 1vw;
+				p{
+					color: #fff;
+					font-size: 1vw;
+					margin: 0 0 4px;
+			}
+	}
+
+		.accept-challenge{
+			width: 26vw;
+			height: 7vh;
+			border: none;
+	    	color: white;
+	   	 	text-align: center;
+	    	text-decoration: none;
+	   		display: inline-block;
+			background-color: #012438;
+			text-align: center;
+			line-height: 4vh;
+				p{
+					color: #fff;
+					font-size: 1.2vw;
+					margin: 0 0 4px;
+			}
+		}
+
+		
+		.active-users{
+			height: 40em;
+			h3{
+				padding-top: 1em;
+				padding-left: 3em;
+				color: #00b8d4;
+			}
 		}
 	}
 
-	.chat{
-		float: right;
-		width: 24.5%;
-		height: 180vh;
-		background-color: #fff;
-		display: inline-block;
-		vertical-align: top;
-		padding-left: 0px;
-   	 	padding-right: 0px;
-    	margin-left: 2.4vw;
-    	margin-top: -49vh;
-	.blue{
-		height: 46.7em;
-		background-color: #002c47;
-		margin-top: 14.5vh;
-	}
 
-	// .grey{
-	// 	height: 200vh;
-	// 	background-color:#e8edf1;
-	// 	margin-top: -1.3em;
-	// }
-
-	.active-users{
-		height: 40em;
-		h3{
-			padding-top: 1em;
-			padding-left: 3em;
-			color: #00b8d4;
+		.text{
+			width: 63vw;
+		    height: 15vh;
+		    margin: 1vh 3vw;
+		    padding-left: 1.5vw;
 		}
-	}
+
+		.bluebox{
+			width: 12.5vw;
+			height: 25vh;
+			background-color: #177794;
+			margin-left: 0.4vw;
+			}
+
+		.chat{
+			height: 166vh;
+	    	background-color: #fff;
+	 
+		.blue{
+			height: 46.7em;
+			background-color: #002c47;
+			margin-top: 14.5vh;
+		}
+
+		.img-responsive{
+			border: 1px solid transparent;
+    		border-radius: 50%;
+		}
+
 }
 
-.text{
-	width: 64vw;
-	height: 15vh;
-	margin-top: 0.5vh;
-	padding-left: 4vw;
-}
-	
 
-}
 
