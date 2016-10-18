@@ -128,7 +128,7 @@
 
 	.likeBlock{
 		position: relative;
-		left: 30%;
+		// left: 30%;
 		bottom: 10%;
 		// width: 17vw;
 	}
@@ -176,7 +176,6 @@
 	}
 
 	.block{
-		// width: 17.6vw;
 		height: 462px;
 		background-color: #012438;
 		border-left: 2px solid #03a2c0;
@@ -184,14 +183,12 @@
 	}
 
 	.block .fun p{
-		font-size: 14px;
 		width: 310px;
 		color: #fff;
-		padding:30px 15px;
+		padding:30px 4px;
 	}
 
 	.provocation p{
-		font-size: 14px;
 		color: #fff;
 		padding: 28px 3px;
 	}
@@ -204,7 +201,6 @@
 	}
 
 	hr {
-	    height: 1.5px;
 	    /* Set the hr color */
 	    color:#03b2d1; /* old IE */
 	    background-color: #03b2d1; /* Modern Browsers */
@@ -222,10 +218,8 @@
 		display: block;
     	height: auto;
     	background-color: #fff;
-    	margin-left: 0.7vw;
     	margin-top: 1.5vh;
     	position: relative;
-    	width: 73%;
 			.carousel-caption{
 				left: 0;
 				right:auto;
@@ -266,7 +260,7 @@
 		vertical-align: top;
 		/*padding-left: 150px;*/
 		padding-top: 30px;
-		width: 20vw;
+		// width: 20vw;
 	}
 
 	.likeLike{
@@ -339,7 +333,6 @@
 	.clock{
 		display: inline-block;
 		vertical-align: top;
-		padding-left: 2vw;
 		padding-top: 10px;
 		h6{
 			color:#03b2d1;
@@ -375,7 +368,7 @@
 		bottom: 1vh;
     	width: 100%;
     	padding-top: 4vh;
-    	padding-left: 7vw;
+    	padding-left: 6vw;
 	}
 	.socialtwo{
 		display: none;
@@ -384,6 +377,9 @@
 		display: none;
 	}
 	.user{
+		display: block;
+		max-width: 100%;
+		height: auto;
 		position: absolute;
 		top: 66%;
 		left: 3%;
@@ -400,7 +396,6 @@
 		display:inline-block;	
 		}
 	.user .img-circle {
-		border-radius: 50%;
 		border: 5px solid #fff;
 		width: 6vw;
 	
