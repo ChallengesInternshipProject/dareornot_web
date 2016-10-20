@@ -83,7 +83,7 @@
 	aside{
 		display: inline-block;
 		vertical-align: top;
-		height: 206vh;
+		height: 176vh;
 		background-color: #002945;
 		padding: 0px;
 	}
@@ -94,6 +94,10 @@
 		background-image: url(../images/Categories/user.png);
 		background-repeat: no-repeat;
 		background-position: left;
+		 -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 		background-size: 2.9vw;
     	height: 9vh;
     	width: 3vw;
@@ -106,6 +110,10 @@
 		background-image: url(../images/Categories/speech.png);
 		background-repeat: no-repeat;
 		background-position: left;
+		 -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 		background-size: 2.9vw;
     	height: 9vh;
     	width: 3vw;
@@ -119,6 +127,10 @@
 		background-image: url(../images/Categories/love.png);
 		background-repeat: no-repeat;
 		background-position: left;
+		 -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 		background-size: 2.9vw;
     	height: 9vh;
     	width: 3vw;
@@ -128,9 +140,7 @@
 
 	.likeBlock{
 		position: relative;
-		// left: 30%;
 		bottom: 10%;
-		// width: 17vw;
 	}
 
 	.likeBlock p{
@@ -227,6 +237,7 @@
 				bottom: auto;
 				h3{
 					padding-left: 2vw;
+					font-size: 1.5vw;
 				}
 		}
 	}
@@ -276,7 +287,7 @@
 		background-size: 3em;
 		height: 7vh;
 		padding-top: 15px;
-		padding-left: 35px;
+		padding-left: 1vw;
 	 }
 
 	.info .comment{
@@ -288,7 +299,7 @@
 		background-size: 3em;
 		height: 7vh;
 		padding-top: 15px;
-		padding-left: 35px;
+		padding-left: 1vw;
 	 }
 
 	.info .heart{
@@ -300,7 +311,7 @@
 		background-size: 3em;
 		padding-top: 15px;
 		height: 7vh;
-		padding-left: 35px;
+		padding-left: 1vw;
 	 }
 
 	.likeLike>p{
@@ -429,7 +440,7 @@
 	}
 
 	.chat{
-		height: 206vh;
+		height: 176vh;
 		background-color: #fff;
 		display: inline-block;
 		vertical-align: top;
