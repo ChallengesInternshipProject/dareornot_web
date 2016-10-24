@@ -32,20 +32,16 @@
 			height: 214vh;
 			margin-left: 5.7vw;
 			}
-		.accept{
-			width: 65vw;
-    		height: 18vh;
-    		margin-left: 1.7vw;
-		}
-
+		
 		.accept-dare{
 			float: right;
 			display: inline-block;
 			vertical-align: top;
-			width: 16vw;
+			// width: 16vw;
+			width: 25%;
 			height: 14vh;
 			background-color:#012438;
-			margin-right: 0.6vw;
+			margin-right: 1.6vw;
     		margin-top: 3vh;
 					p{
 						color: #fff;
@@ -56,10 +52,10 @@
 		}
 		.align{
 			display: inline-block;
-			vertical-align: top;
-			height: 17vh;
-			width: 27vw;
-			margin-top: 2vh;
+    		vertical-align: top;
+    		height: auto;
+    		max-width: 27vw;
+    		margin: 3vh 0vw 2vw 5vw;
 		}
 
 		.timeclock{
@@ -74,16 +70,15 @@
 		.time{
 			background-image:url(../images/single-dare/time.png);
 			background-repeat: no-repeat;
-			background-size: 2.5em;
-			background-position: 6%;
+			background-size: contain;
+			background-position: left;
 			display: inline-block;
 			vertical-align: top;
-			padding-left: 4vw;
+			padding-left: 2.5vw;
+    		height: 4vh;
 				p{
 				font-size: 3.3vh;
 				color:#03b2d1;
-				padding-top: 4px;
-				margin-top: 6px;
 			}
 
 			
@@ -91,7 +86,10 @@
 
 		.likeLike{
 		 	display:inline-block;
-		 }
+		 	width: 100%;
+		 	line-height: 7vh;
+		 	padding-top: 0.7vh;
+		}
 
 		.person{
 		 	display: inline-block;
@@ -99,11 +97,10 @@
 			background-image: url(../images/timeline/user1.png);
 			background-repeat: no-repeat;
 			background-position: center;
-			background-size: 3.5em;
+			background-size: contain;
 			height: 8vh;
-			padding-top: 1vh;
-	    	padding-left: 2vw;
-		 }
+			width: 2.5vw;
+		}
 
 		.comment{
 		 	display: inline-block;
@@ -111,11 +108,10 @@
 			background-image: url(../images/timeline/speech1.png);
 			background-repeat: no-repeat;
 			background-position: center;
-			background-size: 3.5em;
+			background-size: contain;
 			height: 8vh;
-			padding-top: 1vh;
-	    	padding-left: 2vw;
-		 }
+			width: 2.5vw;
+		}
 
 		.heart{
 		 	display: inline-block;
@@ -123,34 +119,19 @@
 			background-image: url(../images/timeline/love1.png);
 			background-repeat: no-repeat;
 			background-position: center;
-			background-size: 3.5em;
+			background-size: contain;
 			height: 8vh;
-			padding-top: 1vh;
-	    	padding-left: 2vw;
-		 }
+			width: 2.5vw;
+		}
 
 		.likeLike>p{
 			display: inline-block;
 			vertical-align: top;
-			font-size: 3.5vh;
+			font-size: 4.5vh;
 			color: #03b2d1;
 			margin-right: 2.2vw;
 			padding-left: 4px;
 		}
-
-		.likeLike .person{
-			width: 4vw;
-		}
-
-	 	.likeLike .comment{
-			width: 3vw;
-		}
-
-		.likeLike .heart{
-			width: 3vw;
-		}
-
-
 
 		.clock h6>p{
 			color:#ffc000;
@@ -159,9 +140,8 @@
 		}
 		.clock{
 			display: inline-block;
-			vertical-align: top;
-			padding-left: 8vh;
-	    	padding-top: 4vh;
+		    vertical-align: top;
+		    padding-top: 4vh;
 			h6{
 				color:#03b2d1;
 				font-size: 7.5vh;
@@ -173,14 +153,65 @@
 			color:#03b2d1;
 			font-size: 1vw;
 			text-align: center;
-			margin-top: 3vh;
-			line-height: 11vh; 
+			line-height: 7vh; 
+		}
+
+		.icon-arrow-left{
+			display: inline-block;
+		    vertical-align: center;
+		    width: 3vw;
+		    height: 23vh;
+			background-image: url(/images/single-dare/white.png);
+		  	background-size: contain;
+		    background-repeat: no-repeat;
+		    background-position: center;
+
+
+		}
+
+		.icon-arrow-right{
+			display: inline-block;
+		    vertical-align: center;
+		    width: 3vw;
+		    height: 23vh;
+			background-image: url(/images/single-dare/white-right.png);
+		  	background-size: contain;
+		    background-repeat: no-repeat;
+		    background-position: center;
+
+
+		}
+
+
+		.icon-arrow-left-blue{
+			display: inline-block;
+		    vertical-align: center;
+		    width: 3vw;
+		    height: 11vh;
+			background-image: url(/images/single-dare/blue.png);
+		  	background-size: contain;
+		    background-repeat: no-repeat;
+		    background-position: center;
+
+
+		}
+
+		.icon-arrow-right-blue{
+			display: inline-block;
+		    vertical-align: center;
+		    width: 3vw;
+		    height: 11vh;
+			background-image: url(/images/single-dare/blue-right.png);
+		  	background-size: contain;
+		    background-repeat: no-repeat;
+		    background-position: center;
+
+
 		}
 
 		
 		.fix{
 			height: 20vh;
-			margin-left: 0.8vw;
 			img{
 				display: inline-block;
 				width: 4vw;
@@ -192,7 +223,6 @@
 
 			}
 
-
 			p{	
 				vertical-align: top;
 			 	display: inline-block;
@@ -201,6 +231,20 @@
 		    	margin-left: 0.5vw;
 			     }
 	}
+
+		.another-fix{
+			height: 10vh;
+						img{
+				display: inline-block;
+				width: 4vw;
+			    height: 8vh;
+			    margin-left: -0.4vw;
+			    border: 1px solid transparent;
+			    border-radius: 50%;
+			}
+		}
+
+
 
 		.fixed{
 			img{
@@ -222,8 +266,8 @@
 		     }
 	}
 		.pic{
-			max-width: 8vw;
-			margin-left: 2.5vw;
+			// max-width: 8vw;
+			margin-left: 2.6vw;
 		}
 		.adition{
 			background-image: none;
@@ -238,7 +282,7 @@
 		.social{
 				height: 4vh;
 				width: 100%;
-				margin: 9vh 5.9vw 4vh;
+				margin: 9vh 6.9vw 4vh;
 			}
 
 		.soc-g{
@@ -320,14 +364,14 @@
 
 
 		.text{
-			width: 63vw;
-		    height: 15vh;
+			width: auto;
+		    height: auto;
 		    margin: 1vh 3vw;
 		    padding-left: 1.5vw;
 		}
 
 		.bluebox{
-			width: 12.5vw;
+			width: 13vw;
 			height: 25vh;
 			background-color: #177794;
 			margin-left: 0.4vw;
@@ -348,7 +392,25 @@
     		border-radius: 50%;
 		}
 
+	// 	@media screen and (max-width: 800px){
+	// 	.single-dare{
+	// 		.align{
+	// 			display: block;
+	// 		}
+		
+	// 		.clock{
+	// 			display: block;
+	// 		}
+	// 		.accept{
+	// 			display: block;
+	// 		}
+
+	// 	}
+	// }
+
 }
+
+
 
 
 

@@ -94,10 +94,6 @@
 		background-image: url(../images/Categories/user.png);
 		background-repeat: no-repeat;
 		background-position: left;
-		 -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
 		background-size: 2.9vw;
     	height: 9vh;
     	width: 3vw;
@@ -110,10 +106,6 @@
 		background-image: url(../images/Categories/speech.png);
 		background-repeat: no-repeat;
 		background-position: left;
-		 -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
 		background-size: 2.9vw;
     	height: 9vh;
     	width: 3vw;
@@ -127,10 +119,6 @@
 		background-image: url(../images/Categories/love.png);
 		background-repeat: no-repeat;
 		background-position: left;
-		 -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
 		background-size: 2.9vw;
     	height: 9vh;
     	width: 3vw;
@@ -140,7 +128,6 @@
 
 	.likeBlock{
 		position: relative;
-		bottom: 10%;
 	}
 
 	.likeBlock p{
@@ -168,21 +155,30 @@
 		background-image: url(/images/Categories/BusinessSmall.png);
 		background-position: right;
 		background-repeat: no-repeat;
+		background-size: contain;
 		width: 17vw;
+		height: 6vh;
+    	margin-top: 1vh;
 	}
 
 	.provocation div:nth-child(3){
 		background-image: url(/images/Categories/prizeSmall.png);
 		background-position: right;
 		background-repeat: no-repeat;
+		background-size: contain;
 		width: 17vw;
+		height: 6vh;
+    	margin-top: 1vh;
 	}
 
 	.provocation div:nth-child(5){
 		background-image: url(/images/Categories/charitySmall.png);
 		background-position: right;
+		background-size: contain;
 		background-repeat: no-repeat;
 		width: 17vw;
+		height: 6vh;
+    	margin-top: 1vh;
 	}
 
 	.block{
@@ -193,21 +189,24 @@
 	}
 
 	.block .fun p{
-		width: 310px;
 		color: #fff;
-		padding:30px 4px;
+		margin: 0.5vh 0.2vw;
+		padding-top: 1.5vh;
 	}
 
 	.provocation p{
 		color: #fff;
-		padding: 28px 3px;
+		padding: 1vw 0.3vh;
 	}
 
 	.fun{
 		background-image: url(/images/Categories/funSmall.png);
 		background-position: right;
+		background-size: contain;
 		background-repeat: no-repeat;
 		width: 17vw;
+		height: 6vh;
+		margin-top: 0.7vh;
 	}
 
 	hr {
@@ -269,13 +268,13 @@
 	.timetime{
 		display: inline-block;
 		vertical-align: top;
-		/*padding-left: 150px;*/
+		margin-right: 1.5vw;
 		padding-top: 30px;
-		// width: 20vw;
 	}
 
 	.likeLike{
 	 	display: inline-block;
+	 	margin-right: 1.5vw;
 	 }
 
 	.info .person{
@@ -283,8 +282,8 @@
 		vertical-align: top;
 		background-image: url(/images/timeline/user1.png);
 		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 3em;
+		background-size:contain;
+		background-position:center;
 		height: 7vh;
 		padding-top: 15px;
 		padding-left: 1vw;
@@ -296,7 +295,7 @@
 		background-image: url(/images/timeline/speech1.png);
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: 3em;
+		background-size: contain;
 		height: 7vh;
 		padding-top: 15px;
 		padding-left: 1vw;
@@ -308,7 +307,7 @@
 		background-image: url(/images/timeline/love1.png);
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: 3em;
+		background-size: contain;
 		padding-top: 15px;
 		height: 7vh;
 		padding-left: 1vw;
