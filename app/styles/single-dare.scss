@@ -293,14 +293,13 @@
 
 		.social{
 				height: 4vh;
-				width: 100%;
-				margin: 9vh 7.2vw 4vh;
+				// width: 100%;
+				margin: 9vh 6.4vw 4vh;
 			}
 
 		.soc-g{
 			display: inline-block;
 			vertical-align: top;
-			margin-right: 1vw;
 				img{
 					
 	    			height: 8vh;
@@ -310,7 +309,6 @@
 		.soc-t{
 			display: inline-block;
 			vertical-align: top;
-			margin-right: 1vw;
 				img{
 	    			height: 8.1vh;
 				}
@@ -319,7 +317,6 @@
 		.soc-f{
 			display: inline-block;
 			vertical-align: top;
-			margin-right: 1vw;
 				img{
 					width: 4.4vw;
 					height: 8.7vh;
@@ -327,7 +324,7 @@
 	}
 
 		.send-challenge{
-			width: 13vw;
+			// width: 13vw;
 			height: 7vh;
 			border: none;
 	    	color: white;
@@ -346,7 +343,6 @@
 	}
 
 		.accept-challenge{
-			width: 26vw;
 			height: 7vh;
 			border: none;
 	    	color: white;
