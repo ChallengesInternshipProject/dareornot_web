@@ -32,25 +32,22 @@
 		display: inline-block;
 		vertical-align: top;
 		height: 100%;
-		width: 115%;
 		min-height: 1778px;
 		background-color: #e8edf1;
-		// margin-left: -29px;
 		padding: 0px;
 		
 	}
 	ul{
-		margin-top: -11px;
     	margin-bottom: 11px;
 	}
 
 	.fa-user {
-	  	background: url("../images/timeline/user1.png") ;
+	  	background: url("/images/timeline/user1.png") ;
 	  	background-repeat: no-repeat;
 	  	background-position: center;
 	}
 	.fa-categories{
-	  	background: url("../images/timeline/categories.png") ;
+	  	background: url("/images/timeline/categories.png") ;
 	  	background-repeat: no-repeat;
 	  	background-position: center;
 	}
@@ -58,19 +55,17 @@
 
 
 	.CentralNav{
-		width: 93%;
 		height: 5vh;
-		padding-left: 20px;
 		background-color: #002c47;
-		margin-left: -1px;
 	}
 
 	.CentralNav  li{
 		width: auto;
-    	height: 10px;
+    	height: 4vh;
     	margin: 0;
     	list-style-type: none;
 	}
+
 
 	.CentralNav>ul>li>a:hover{
 		border-bottom-color: #00b8d4;
@@ -99,18 +94,16 @@
 	    border-bottom:3px solid transparent;
 		color: white;
 	    display: block;
-	    font-size: 1.3em;
+	    font-size: 1.2em;
     }
 
 
 	.demo{
 		display: block;
-		// width: 1409px;
     	height: auto;
-    	width: 70.5vw;
+    	width: 100%;
 		background-color: #fff;
-		margin-left: 0.2vw;
-    	margin-top: 2.3vh;
+    	margin-top: 2vh;
 		position:relative;
 			.carousel-caption{
 			left: 0;
@@ -163,7 +156,7 @@
 	.info .person{
 	 	display: inline-block;
 		vertical-align: top;
-		background-image: url(../images/timeline/user1.png);
+		background-image: url(/images/timeline/user1.png);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 3em;
@@ -175,7 +168,7 @@
 	.info .comment{
 	 	display: inline-block;
 		vertical-align: top;
-		background-image: url(../images/timeline/speech1.png);
+		background-image: url(/images/timeline/speech1.png);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 3em;
@@ -187,7 +180,7 @@
 	.info .heart{
 	 	display: inline-block;
 		vertical-align: top;
-		background-image: url(../images/timeline/love1.png);
+		background-image: url(/images/timeline/love1.png);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 3em;
@@ -295,20 +288,16 @@
 
 
 	.chat{
-	width: 21%;
-	height: 180vh;
-	background-color: #fff;
-	display: inline-block;
-	vertical-align: top;
-	padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 5vw;
-    margin-top: 0vh;
-	.blue{
-		height: 46.7em;
-		background-color: #002c47;
-		margin-top: 14.5vh;
-	}
+		height: 176vh;
+		background-color: #fff;
+		display: inline-block;
+		vertical-align: top;
+		padding: 0px;
+	// .blue{
+	// 	height: 46.7em;
+	// 	background-color: #002c47;
+	// 	margin-top: 14.5vh;
+	// }
 
 	// .grey{
 	// 	height: 200vh;
@@ -316,29 +305,29 @@
 	// 	margin-top: -1.3em;
 	// }
 
-	.active-users{
-		height: 40em;
-		h3{
-			padding-top: 1em;
-			padding-left: 3em;
-			color: #00b8d4;
-		}
-	}
+	// .active-users{
+	// 	height: 40em;
+	// 	h3{
+	// 		padding-top: 1em;
+	// 		padding-left: 3em;
+	// 		color: #00b8d4;
+	// 	}
+	// }
 }
 	
 	
 }
 
 
-@media screen and (max-width: 800px){
-		.Timeline{
-			.CentralNav{
-				display: none;
-			}
-				display: none;
-			.demo{
-				width: 100%;
-			}
+// @media screen and (max-width: 800px){
+// 		.Timeline{
+// 			.CentralNav{
+// 				display: none;
+// 			}
+// 				display: none;
+// 			.demo{
+// 				width: 100%;
+// 			}
 
-		}
-	}
+// 		}
+// 	}
