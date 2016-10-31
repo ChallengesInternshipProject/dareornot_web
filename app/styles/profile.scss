@@ -1,9 +1,11 @@
 @import "some-varibals-mixins";
+@import "profil";
 /* CSS profile*/
-.profile {
-	line-height: 3;
-
+.profile, .profile-statistic {
+	@include mine-box;
+	@include formatting-box;
 	h1 {
+
 		color: #fff;
 		font-size: 1.2em;
 	}
@@ -13,39 +15,21 @@
 		@include radius-fa;
 		float: right;
 	}
+	.coming-1 {
+		@include aside-coming;
 
-	aside {
 		.sentdare {
-			@include sentdare-button-style;
-			width: 29%;
-			height: 10vh;
-			padding: 0;
-			margin-top: -1vh;
-			margin-right: -11vh;
-			background-size: 13%;
-			background-color: #012438;
-			text-align: center;
-			border: none;
+			@include sentdare-button;
 		}
 
 		.cover {
-			width: 100%;
-			min-height: 62vh;
-			background-image: url("../images/6.jpg");
-			background-size: 94%;
-			margin: 1%;
-			padding: 1%;
-			-webkit-filter: blur(5px);
-			-moz-filter: blur(5px);
-			-o-filter: blur(5px);
-			-ms-filter: blur(5px);
-			filter: blur(5px);
+			@include cover-img;
 		}
 	}
 
 	.menu {
 		.one {
-			min-height: 122vh;
+			min-height: 147.5vh;
 			background-color: #fff;
 
 			.social-fa {
@@ -58,7 +42,7 @@
 			.profile-info {
 				margin-top: -6em;
 				margin-left: 0.5vh;
-
+				display: flex;
 				h1 {
 					float: right;
 					color: #fff;
@@ -71,8 +55,8 @@
 
 				.img-fa {
 					@include radius-fa;
-					margin-top: -10vh;
-					margin-left: 3vh;
+					margin: -10vh 3vh 3vh 10vh;
+					//margin-left: 3vh;
 					width: 34vh;
 					height: 34vh;
 					padding: 0;
@@ -186,23 +170,14 @@
 		}
 
 		.two {
-			min-height: 140vh;
+			min-height: 147.5vh;
 			background-color: #e8edf0;
 
 			nav {
 				.fa {
-					width: 5vw;
-					height: 4vw;
-					margin-right: 8vh;
-				}
-
-				ul {
-					list-style-type: none;
-					margin: 1%;
-					padding: 1%;
-					overflow: hidden;
-					background-color: #e8edf0;
-					width: 100%;
+				width: 14%;
+    			height: 15vh;
+    			margin: 0.5vh 1.5vh 0.5vh 1.5vh;
 				}
 
 				li {
@@ -216,8 +191,8 @@
 					/* padding: 14px 16px; */
 					text-decoration: none;
 					width: 100%;
-					font-size: 8px;
-					margin-top: 4em;
+					font-size: 1.5vh;
+					margin-top: 10vh;
 					/* margin-left: 1em; */
 					/* margin-right: 1em; */
 				}
@@ -225,12 +200,12 @@
 		}
 
 		.three {
-			min-height: 140vh;
+			min-height: 147.5vh;
 			background-color: #fff;
 			float: right;
 			line-height: 2vh;
-			margin-right: -10vh;
-			margin-top: - 140vh;
+			//margin-right: -10vh;
+			//margin-top: - 140vh;
 
 			section {
 				margin-top: 2vh;
@@ -241,18 +216,11 @@
 			}
 
 			.time {
-				padding: 1%;
-				color: orange;
-				font-size: 1.2vh;
-				display: inline;
-				float: right;
+				@include last-online;
 			}
 
 			.preview {
-				color: orange;
-				width: 90%;
-				font-size: 5px;
-				display: block;
+				@include user-comentar;
 			}
 
 			.row {
@@ -262,25 +230,16 @@
 
 			span {
 				margin-left: 3%;
-				font-size: 3vh;
+				font-size: 2vh;
 				color: #03b2d1;
 			}
 
 			h1 {
-				padding: 1%;
-				font-size: 3vh;
-				color: #18293b;
-				position: relative;
-				display: inline;
-				text-align: center;
+				@include user-name;
 			}
 
 			img {
-				margin-left: 7%;
-				padding: 2%;
-				width: 1em;
-				height: 1em;
-				float: left;
+			@include chat-img;
 			}
 		}
 	}
