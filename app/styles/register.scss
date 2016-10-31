@@ -1,18 +1,125 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('myfont.woff2') format('woff2');
+}
 
-.register{
-	width: 30vw;
-	height: 17vh;
+.register {
+	width: 36.1vw;
+	height: 67vh;
 	background-color: #e8edf0;
-	margin: 5em;
 		.registration{
-			width: 30vw;
-			height: 5vh;
+			width: 36.1vw;
+			height: 6vh;
 			background-color: #066886;
-			p{
+			p{	
 				color: #fff;
-				font-size: 2vw;
-				text-align: center;
-				padding-left: 1.8vw;
+				font-size: 1.5vw;
+				padding:0.5vh 13.5vw;
 			}
 		}
+.facebook{
+	width: 8.5vw;
+	height: 5vh;
+	margin: 4vh 2.5vh 5vh 2.7vw;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #19579e;
+	background-image: url(/images/icons/facebook.png);
+	background-repeat: no-repeat;
+	background-size: 2.5vh;
+	background-position: 1%;
+}
+
+.twitter{
+	width: 8.5vw;
+	height: 5vh;
+	margin: 4vh 2.5vh 5vh 1vw;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #088ed9;
+	background-image: url(/images/icons/twitter.png);
+	background-repeat: no-repeat;
+	background-size: 2vh;
+	background-position: 5%;
+}
+
+.google{
+	width: 8.5vw;
+	height: 5vh;
+	margin: 4vh 1vh 5vh 1vw;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #c70416;
+	background-image: url(/images/icons/g+.png);
+	background-repeat: no-repeat;
+	background-size: 2vh;
+	background-position: 5%;
+}
+
+.inside p{
+	text-align: center;
+	color: #fff;
+	font-size: 1.8vh;
+	margin-top: 1.1vh;
+	margin-left: 0.8vw;
+
+}
+
+.center{
+	margin-left: 2vw;
+}
+.lenght{
+	width: 15.1vw;
+}
+h4{
+	display: inline-block;
+	vertical-align: top;
+	width: 12vw;
+	height: 2vh;
+	background-color: #e8edf0;
+	color: #177794;
+	margin: -1vh 12vw;
+	text-align: center;
+	font-size: 13px;
+}
+.line{
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	height: 4vh;
+	border-top: solid 1px #177794;
+	margin-top: -1vh;
+}
+form .conditions p{
+	line-height: 2vh;
+	color: #177794;
+	text-align: center;
+	font-size: 1rem;
+	margin-right: 3vw;
+	margin-top: 1vh;
+}
+
+.here{
+	color: #177794;
+	text-align: center;
+	font-size: 1.2rem;
+	margin-right: 3vw;
+	margin-top: 3vh;
+}
+
+span{
+	color: #2E5773;
+	font-weight: bold;
+	font-size: 0.6vw;
+}
+
+.button{
+	margin-left: 0.6vw;
+	border:none;
+	border-radius: 0;
+	width: 12vw;
+	height: 4vh;
+	background-color: #177794;
+	font-size: 1vw;
+}
 }

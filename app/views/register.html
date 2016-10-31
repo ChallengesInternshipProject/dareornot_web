@@ -3,8 +3,65 @@
     <!-- <div class="modal-header">
       <h3 class="modal-title" id="modal-title">I'm a modal!</h3>
     </div> -->
-    <div class="modal-body" id="modal-body">
-      Modal body
+    <div class="modal-body no-padding" id="modal-body">
+       <div class="register">
+        <div class="registration"><p>Регистрация</p></div>
+      <div class="inside">
+        <div class="facebook"><p>Влез с facebook</p></div>
+        <div class="twitter"><p>Влез с twitter</p></div>
+        <div class="google"><p>Влез с google</p></div>
+      </div>
+        <div class="line"><h4>Или си направи регистрация сам</h4></div>
+        <div class="row center">
+      <div class="col-xs-12" id="demoContainer">
+                <form id="registrationForm" class="form-horizontal fv-form fv-form-bootstrap" novalidate="novalidate">
+                  <button type="submit" class="fv-hidden-submit" style="display: none; width: 0px; height: 0px;"></button>
+        <div class="form-group">
+            <div class="col-xs-5">
+                <input type="text" class="form-control lenght" name="firstName" placeholder="Име" />
+            </div>
+          <div class="col-xs-5">
+              <input type="text" class="form-control lenght" style="margin-left:1vw;" name="lastName" placeholder="Фамилия" />
+          </div>
+        </div>
+
+        <div class="form-group">
+           <div class="col-xs-11">
+                <input type="text" class="form-control" name="username" placeholder="Last name" />
+            </div>
+        </div>
+
+        <div class="form-group">
+           <div class="col-xs-11">
+                <input type="text" class="form-control" name="email" placeholder="Last name"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-xs-11">
+                <input type="password" class="form-control" name="password" placeholder="Last name"/>
+            </div>
+        </div>
+
+         <div class="form-group">
+            <div class="col-xs-11">
+                <input type="password" class="form-control" name="password" placeholder="Last name"/>
+            </div>
+        </div>
+        <div class="conditions">
+              <P>Щракайки върху Регистрация, приемате нашите условия <br> и потвърждавате, че сте прочели нашите <a href="#"><span>Политика за данни</span></a>, включително тези за Използване на бисквитки</P>
+        </div>
+
+      <div class="form-group">
+            <div class="col-xs-9 col-xs-offset-3">
+                <button type="submit" class="btn btn-large btn-primary button" name="signup" value="Sign up">Регистрирай ме</button>
+            </div>
+        </div>
+      </form>
+      <p class="here">Забравена парола?Кликни<a href="#"> <span>Тук</span></a></p>
+      </div>
+    </div>
+    </div>
     </div>
     <!-- <div class="modal-footer">
       <button class="btn btn-primary" type="button" ng-click="register.ok()">OK</button>
@@ -16,3 +73,4 @@
   <br>
   <br>
   <button type="button" class="btn btn-default" ng-click="register.open('lg')">Large modal</button>
+

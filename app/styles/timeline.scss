@@ -120,7 +120,6 @@
 
 	.demo>img{
 		position: relative;
-	  	width: 1409px;
     	height: 540px;
 	 }
 
@@ -158,11 +157,11 @@
 		vertical-align: top;
 		background-image: url(/images/timeline/user1.png);
 		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 3em;
+		background-size:contain;
+		background-position:center;
 		height: 7vh;
 		padding-top: 15px;
-		padding-left: 35px;
+		padding-left: 1vw;
 	 }
 
 	.info .comment{
@@ -171,10 +170,10 @@
 		background-image: url(/images/timeline/speech1.png);
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: 3em;
+		background-size: contain;
 		height: 7vh;
 		padding-top: 15px;
-		padding-left: 35px;
+		padding-left: 1vw;
 	 }
 
 	.info .heart{
@@ -183,12 +182,11 @@
 		background-image: url(/images/timeline/love1.png);
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: 3em;
+		background-size: contain;
 		padding-top: 15px;
 		height: 7vh;
-		padding-left: 35px;
+		padding-left: 1vw;
 	 }
-
 	.likeLike>p{
 		display: inline-block;
 		vertical-align: top;
