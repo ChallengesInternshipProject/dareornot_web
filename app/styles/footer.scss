@@ -1,4 +1,8 @@
 
+@font-face {
+  font-family: 'Open Sans';
+  src: url('myfont.woff2') format('woff2');
+}
 	.footer{
 		position: relative;
 		width: 100%;
@@ -6,21 +10,18 @@
 		font-size:14px;
 		text-align: center;
 		background-color:#18293a;
-		height: 75px;
-		font-family:"Open Sans";
+		// height: 75px;
 
 	
 
 	ul{
-		height: 75px;
 		margin: 0px;
 		padding-left: 0px;
 	}
 	 ul>li>a{
 		color: #ffb400;
 		text-decoration: none;
-		padding-right: 5px;
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 
 	ul>li {
@@ -35,7 +36,7 @@
 		height: 40px;
 		line-height: 60px;
 		vertical-align: middle;
-		padding:0px 5px 10px 0px;
+		padding: 0vh 0.5vw 1.3vh 0vw;
 	}
 
 	ul>li i{
@@ -74,23 +75,23 @@
 
 }
 
-@media screen and (max-width: 800px){
-		.footer{
-			height: auto;
-			width: 100%;
-			position: relative;
-			nav{
-				display: block;
-				width: 100%;
-				height:auto;
-				min-height:53vh;
-				background-color:#18293a; 
-			}
+// @media screen and (max-width: 1400px){
+// 		.footer{
+// 			height: auto;
+// 			width: 100%;
+// 			position: relative;
+// 			nav{
+// 				display: block;
+// 				width: 100%;
+// 				height:auto;
+// 				min-height:53vh;
+// 				background-color:#18293a; 
+// 			}
 		
-		.container-fluid{
-			margin:5px 5px;
-		}
+// 		.container-fluid{
+// 			margin:5px 5px;
+// 		}
 	
-	}
-}
+// 	}
+// }
 
