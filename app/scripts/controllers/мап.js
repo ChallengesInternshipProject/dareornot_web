@@ -1,6 +1,7 @@
 'use strict';
 
 /**
+
  * @ngdoc function
  * @name dareornotApp.controller:Ctrl
  * @description

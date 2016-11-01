@@ -6,7 +6,7 @@
 
 	}
 	.carousel-inner>.active{
-		max-height: 42vh;
+		max-height: 48vh;
 
 	}
 
@@ -85,7 +85,7 @@
 	}
 	.CentralNav>ul>li>a{
 		position: relative;
-		padding-top: 17px;
+		padding-top: 1.5vh;
 		height: 5vh;
 		width: auto;
 	    text-decoration: none;
@@ -97,6 +97,9 @@
 	    font-size: 1.2em;
     }
 
+  .lenght img{
+  	width: 100%;
+  }
 
 	.demo{
 		display: block;
