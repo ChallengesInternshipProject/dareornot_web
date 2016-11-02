@@ -6,7 +6,7 @@
 
 	}
 	.carousel-inner>.active{
-		max-height: 48vh;
+		max-height: 53vh;
 
 	}
 
@@ -139,20 +139,21 @@
 		vertical-align: top;
 		padding-left: 4px;
 			p{
-				font-size: 2vh;
+				font-size: 2.7vh;
+				color: #03b2d1;
 			}
 	}
 
 	.timetime{
 		display: inline-block;
 		vertical-align: top;
-		/*padding-left: 150px;*/
-		padding-top: 30px;
-		width: 26vw;
+		margin-right: 3.5vw;
+		margin-top: 4vh;
 	}
 
 	.likeLike{
 	 	display: inline-block;
+	 	margin-top: 2.5vh;
 	 }
 
 	.info .person{
@@ -193,8 +194,7 @@
 	.likeLike>p{
 		display: inline-block;
 		vertical-align: top;
-		padding-top: 15px;
-		font-size: 2vh;
+		font-size: 4vh;
 		color: #03b2d1;;
 	}
 
@@ -214,49 +214,57 @@
 
 	.clock h6>p{
 		color:#ffcf7d;
-		font-size: 1.5vh;
+		font-size: 2vh;
     	line-height: 0vh;
 	}
 	.clock{
 		display: inline-block;
 		vertical-align: top;
-		padding-left: 14vh;
-		padding-top: 10px;
+		margin-top: 2vh;
+		margin-left: 4vw;
 		h6{
 			color:#03b2d1;
-			font-size: 4vh;
+			font-size: 5vh;
+			margin-bottom: 1px;
 		}
 	}
 
 	.timecheck{
+		background-image: url(/images/timeline/location-icon.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
 		display: inline-block;
 		vertical-align: top;
 		padding-left: 4px;
 	}
 
- 	.timecheck img{
-		width: 16px;
-		height: 20px;
-	}
+ // 	.timecheck img{
+	// 	width: 1vw;
+	// 	height: 3vh;
+	// }
 
 	.timeclock{
+		background-image: url(/images/timeline/time.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
 		display: inline-block;
 		vertical-align: top;
 		padding-left: 1vw;
-    	height: 3vh;
+    	width: 3vw;
 	}
 
-	.timeclock img{
-		width: 16px;
-		height: 16px;
-	}
+	// .timeclock img{
+	// 	width: 1.2vw;
+ //    	height: 2.4vh;
+	// }
 
 	.info{
 		position: relative;
 		bottom: 1vh;
     	width: 90%;
-    	padding-top: 4vh;
-    	padding-left: 9vw;
+    	padding-left: 10vw;
 	}
 	.socialtwo{
 		display: none;
@@ -266,8 +274,8 @@
 	}
 	.user{
 		position: absolute;
-		top: 66%;
-		left: 3%;
+		top: 70%;
+		left: 2%;
 		}
 	.user-name{
 		display: inline-block;
@@ -283,7 +291,7 @@
 	.user .img-circle {
 		border-radius: 50%;
 		border: 5px solid #fff;
-		width: 6vw;
+		width: 8vw;
 
 	}
 
