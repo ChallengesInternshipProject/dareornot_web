@@ -236,7 +236,8 @@
 		background-size: contain;
 		display: inline-block;
 		vertical-align: top;
-		padding-left: 4px;
+		padding-left: 1vw;
+    	height: 2vw;
 	}
 
  // 	.timecheck img{
@@ -251,8 +252,8 @@
 		background-size: contain;
 		display: inline-block;
 		vertical-align: top;
-		padding-left: 1vw;
-    	width: 3vw;
+		padding-left: 1.3vw;
+    	height: 2vw;
 	}
 
 	// .timeclock img{
@@ -323,20 +324,12 @@
 	// 	}
 	// }
 }
-	
+	@media screen and (max-width: 320px){
+		.section{
+			margin-left: 0vw;
+		}
+	}
 	
 }
 
 
-// @media screen and (max-width: 800px){
-// 		.Timeline{
-// 			.CentralNav{
-// 				display: none;
-// 			}
-// 				display: none;
-// 			.demo{
-// 				width: 100%;
-// 			}
-
-// 		}
-// 	}

@@ -263,6 +263,7 @@
 		padding-left: 4px;
 			p{
 				font-size: 2vh;
+				color: #03b2d1;
 			}
 	}
 
@@ -276,6 +277,7 @@
 	.likeLike{
 	 	display: inline-block;
 	 	margin-right: 1.5vw;
+	 	margin-top: 2vh;
 	 }
 
 	.info .person{
@@ -344,7 +346,7 @@
 	.clock{
 		display: inline-block;
 		vertical-align: top;
-		padding-top: 10px;
+		margin-top: 2vh;
 		h6{
 			color:#03b2d1;
 			font-size: 4vh;
@@ -378,8 +380,7 @@
 		position: relative;
 		bottom: 1vh;
     	width: 100%;
-    	padding-top: 4vh;
-    	padding-left: 6vw;
+    	padding-left: 8vw;
 	}
 	.socialtwo{
 		display: none;
